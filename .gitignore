@@ -5,3 +5,4 @@
 .env.*.php
 .env.php
 storage/framework/down
+Envoy.blade.php
