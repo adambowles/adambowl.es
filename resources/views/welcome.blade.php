@@ -84,7 +84,7 @@
 
         <h2>Hello! I am John Doe <br><strong>A UX Designer &amp; Developer based in Beautiful World</strong></h2>
         <a href="#service" class="read_more2 scroll-link">Hire Me!</a>
-			</div>
+      </div>
 
     </div>
   </header>
