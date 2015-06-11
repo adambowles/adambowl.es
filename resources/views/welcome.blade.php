@@ -63,7 +63,7 @@
 	<style>
 		@import url(http://nicholastodor.com/sf/usesf.css);
 		* {
-			font-family: 'San Francisco Display', sans-serif;
+			font-family: 'San Francisco Text', sans-serif;
 		}
 	</style>
 
