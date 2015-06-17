@@ -32,6 +32,7 @@ class GitController extends Controller {
   */
   public function pull()
   {
+    dd('hello');
     $suppliedKey = $_SERVER['HTTP_X_HUB_SIGNATURE'];
     $localKey = sha1(config('GITHUB_SECRET'));
 
@@ -39,15 +40,16 @@ class GitController extends Controller {
       abort(500, 'Secret key not supplied');
     }
 
-    if($localKey == $suppliedKey) {
+    if(hash_equals($localKey, $suppliedKey)) {
       //TODO perform:
+      //`cd ../`
       //`php artisan down`
+      //`git reset --hard`
       //`git pull`
       //`composer install`
       //`npm install`
       //`php artisan migrate`
       //`php artisan up`
-      `touch file`;
     } else {
       abort(500, 'Secret key does not match');
     }
