@@ -11,6 +11,8 @@ class GitController extends Controller {
   |
   | Secured via use of a secret key that will be sent via POST
   |
+  | Note: currently untested, this is effectively pseudocode
+  |
   */
   
   /**
@@ -28,9 +30,9 @@ class GitController extends Controller {
   *
   * @return void
   */
-  public function update()
+  public function update(Request $request)
   {
-    if(config('GitHubSecret') == '') {
+    if(sha1(config('GitHubSecret')) == $request->input('X-Hub-Signature')) {
       //TODO perform:
       // -git pull
       // -composer install
