@@ -34,10 +34,12 @@ class GitController extends Controller {
   {
     if(sha1(config('GitHubSecret')) == $request->input('X-Hub-Signature')) {
       //TODO perform:
+      //`php artisan down`
       //`git pull`
       //`composer install`
       //`npm install`
       //`php artisan migrate`
+      //`php artisan up`
       abort(200); // success
     } else {
       abort(500, 'Secret key does not match'); // error
