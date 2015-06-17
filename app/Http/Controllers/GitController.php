@@ -32,6 +32,7 @@ class GitController extends Controller {
   */
   public function update(Request $request)
   {
+    dd($_SERVER); // inspect the request header
     if(sha1(config('GitHubSecret')) == $request->input('X-Hub-Signature')) {
       //TODO perform:
       //`php artisan down`
