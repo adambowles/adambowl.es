@@ -23,7 +23,7 @@ class VerifyCsrfToken extends BaseVerifier {
       }
     }
 
-    return parent::handle($request, $next);
+    return parent::handle($request, $next); 
   }
 
 }
