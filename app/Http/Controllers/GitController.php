@@ -47,7 +47,7 @@ class GitController extends Controller {
       //`npm install`
       //`php artisan migrate`
       //`php artisan up`
-      `touch file`; //test
+      `touch file`;
     } else {
       abort(500, 'Secret key does not match');
     }
