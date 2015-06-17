@@ -30,7 +30,7 @@ class GitController extends Controller {
   *
   * @return void
   */
-  public function update()
+  public function pull()
   {
     //dd($_SERVER); // inspect the request header
     if(sha1(config('GitHubSecret')) == $_SERVER['HTTP_X_HUB_SIGNATURE']) {
