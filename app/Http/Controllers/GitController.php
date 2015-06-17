@@ -14,7 +14,7 @@ class GitController extends Controller {
   | Note: currently untested, this is effectively pseudocode
   |
   */
-  
+
   /**
   * Create a new controller instance.
   *
@@ -24,7 +24,7 @@ class GitController extends Controller {
   {
     //$this->middleware('auth');
   }
-  
+
   /**
   * Perform a git pull and respond with success or fail
   *
@@ -32,8 +32,14 @@ class GitController extends Controller {
   */
   public function pull()
   {
-    //dd($_SERVER); // inspect the request header
-    if(sha1(config('GitHubSecret')) == $_SERVER['HTTP_X_HUB_SIGNATURE']) {
+    $suppliedKey = $_SERVER['HTTP_X_HUB_SIGNATURE'];
+    $localKey = sha1(config('GITHUB_SECRET'));
+
+    if(!isset($suppliedKey)) {
+      abort(500, 'Secret key not supplied');
+    }
+
+    if($localKey == $suppliedKey) {
       //TODO perform:
       //`php artisan down`
       //`git pull`
@@ -41,9 +47,9 @@ class GitController extends Controller {
       //`npm install`
       //`php artisan migrate`
       //`php artisan up`
-      abort(200); // success
+      `touch file`; //test
     } else {
-      abort(500, 'Secret key does not match'); // error
+      abort(500, 'Secret key does not match');
     }
   }
 
