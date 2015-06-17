@@ -3,12 +3,13 @@
 class HomeController extends Controller {
   /*
   |--------------------------------------------------------------------------
-  | Home Controller
+  | Git Controller
   |--------------------------------------------------------------------------
   |
-  | This controller renders your application's "dashboard" for users that
-  | are authenticated. Of course, you are free to change or remove the
-  | controller as you wish. It is just here to get your app started!
+  | This controller allows GitHub to tell the server to update itself from
+  | the master repo
+  |
+  | Secured via use of a secret key that will be sent via POST
   |
   */
   
@@ -23,13 +24,22 @@ class HomeController extends Controller {
   }
   
   /**
-  * Show the application dashboard to the user.
+  * Perform a git pull and respond with success or fail
   *
-  * @return Response
+  * @return void
   */
   public function update()
   {
-    return view('home');
+    if(config('GitHubSecret') == '') {
+      //TODO perform:
+      // -git pull
+      // -composer install
+      // -npm install
+      // -artisan migrate
+      abort(200); // success
+    } else {
+      abort(500, 'Secret key does not match'); // error
+    }
   }
 
 }
