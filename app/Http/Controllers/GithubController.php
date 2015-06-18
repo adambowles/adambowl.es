@@ -56,7 +56,7 @@ class GithubController extends Controller {
     //`composer install`;
     //`npm install`;
     //`php artisan migrate`;
-    `php artisan up`;
+    `php artisan up`; 
     return `pwd`;
   }
 
