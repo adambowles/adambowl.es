@@ -31,12 +31,10 @@ class GithubController extends Controller {
   public function pull()
   {
     if(!isset($_SERVER['HTTP_X_HUB_SIGNATURE'])) {
-    // if(!isset($_SERVER['HTTP_TEST'])) {
       abort(500, 'Secret key not supplied');
     }
 
     $keys['supplied'] = $_SERVER['HTTP_X_HUB_SIGNATURE'];
-    // $suppliedKey = $_SERVER['HTTP_TEST'];
     $keys['local'] = "sha1=" . env('GITHUB_SECRET');
 
     dd($keys);
