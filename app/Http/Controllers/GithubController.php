@@ -1,6 +1,6 @@
 <?php namespace App\Http\Controllers;
 
-class HomeController extends Controller {
+class GithubController extends Controller {
   /*
   |--------------------------------------------------------------------------
   | Home Controller
@@ -19,7 +19,7 @@ class HomeController extends Controller {
   */
   public function __construct()
   {
-    $this->middleware('auth');
+    //
   }
 
   /**
@@ -27,9 +27,30 @@ class HomeController extends Controller {
   *
   * @return Response
   */
-  public function index()
+  public function pull()
   {
-    return view('home');
+    // dd('hello');
+    // $suppliedKey = $_SERVER['HTTP_X_HUB_SIGNATURE'];
+    dd($_SERVER);
+    $localKey = sha1(config('GITHUB_SECRET'));
+
+    if(!isset($suppliedKey)) {
+      abort(500, 'Secret key not supplied');
+    }
+
+    if(hash_equals($localKey, $suppliedKey)) {
+      //TODO perform:
+      //`cd ../`
+      //`php artisan down`
+      //`git reset --hard`
+      //`git pull`
+      //`composer install`
+      //`npm install`
+      //`php artisan migrate`
+      //`php artisan up`
+    } else {
+      abort(500, 'Secret key does not match');
+    }
   }
 
 }

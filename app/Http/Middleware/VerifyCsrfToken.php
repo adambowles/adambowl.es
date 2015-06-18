@@ -5,6 +5,9 @@ use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;
 
 class VerifyCsrfToken extends BaseVerifier {
 
+//add an array of Routes to skip CSRF check
+private $openRoutes = ['github_pull'];
+
   /**
    * Handle an incoming request.
    *
@@ -14,6 +17,14 @@ class VerifyCsrfToken extends BaseVerifier {
    */
   public function handle($request, Closure $next)
   {
+    //allow whitelisted routes to skip verification
+    foreach($this->openRoutes as $route) {
+      if ($request->is($route)) {
+        return $next($request);
+      }
+    }
+
+    //all other routes require verification
     return parent::handle($request, $next);
   }
 
