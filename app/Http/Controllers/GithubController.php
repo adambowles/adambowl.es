@@ -3,12 +3,13 @@
 class GithubController extends Controller {
   /*
   |--------------------------------------------------------------------------
-  | Home Controller
+  | Github Controller
   |--------------------------------------------------------------------------
   |
-  | This controller renders your application's "dashboard" for users that
-  | are authenticated. Of course, you are free to change or remove the
-  | controller as you wish. It is just here to get your app started!
+  | This controller allows GitHub to tell the server to update itself from
+  | the master repo
+  |
+  | Secured via use of a secret key that will be sent via POST
   |
   */
 
@@ -23,16 +24,14 @@ class GithubController extends Controller {
   }
 
   /**
-  * Show the application dashboard to the user.
+  * Perform a git pull and respond with success or fail
   *
   * @return Response
   */
   public function pull()
   {
-    // dd('hello');
-    // $suppliedKey = $_SERVER['HTTP_X_HUB_SIGNATURE'];
-    dd($_SERVER); 
-    $localKey = sha1(config('GITHUB_SECRET'));
+    $suppliedKey = $_SERVER['HTTP_X_HUB_SIGNATURE'];
+    $localKey = "sha1=" . env('GITHUB_SECRET');
 
     if(!isset($suppliedKey)) {
       abort(500, 'Secret key not supplied');
@@ -40,14 +39,15 @@ class GithubController extends Controller {
 
     if(hash_equals($localKey, $suppliedKey)) {
       //TODO perform:
-      //`cd ../`
-      //`php artisan down`
-      //`git reset --hard`
-      //`git pull`
-      //`composer install`
-      //`npm install`
-      //`php artisan migrate`
-      //`php artisan up`
+      `cd ../`;
+      `touch test_file`;
+      //`php artisan down`;
+      //`git reset --hard`;
+      //`git pull origin master`;
+      //`composer install`;
+      //`npm install`;
+      //`php artisan migrate`;
+      //`php artisan up`;
     } else {
       abort(500, 'Secret key does not match');
     }
