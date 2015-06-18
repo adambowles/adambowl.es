@@ -50,7 +50,7 @@ class GithubController extends Controller {
 
     //TODO perform:
     chdir('..');
-    $output = shell_exec('pwd');
+    $output = 'pwd: ' . shell_exec('pwd');
     $output .= shell_exec('php artisan down');
     $output .= shell_exec('git pull');
     // $output .= shell_exec('git');
