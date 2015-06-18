@@ -48,16 +48,15 @@ class GithubController extends Controller {
       abort(500, 'Hook secret does not match.');
     }
 
-    //TODO perform:
     chdir('..');
-    $output = 'pwd: ' . shell_exec('pwd');
-    $output .= shell_exec('php artisan down');
-    $output .= shell_exec('git pull');
-    // $output .= shell_exec('git');
+    $output = 'pwd: ' . `pwd`;
+    $output .= `php artisan down`;
+    $output .= `git pull`;
+    //TODO perform maybe:
     //$output .= `composer install`;
     //$output .= `npm install`;
     //$output .= `php artisan migrate`;
-    $output .= shell_exec('php artisan up');
+    $output .= `php artisan up`;
     return $output;
   }
 
