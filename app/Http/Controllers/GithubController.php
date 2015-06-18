@@ -48,31 +48,16 @@ class GithubController extends Controller {
       abort(500, 'Hook secret does not match.');
     }
 
-    return 'temp';
-
-
-    if(!isset($_SERVER['HTTP_X_HUB_SIGNATURE'])) {
-      abort(500, 'Secret key not supplied');
-    }
-
-    $keys['supplied'] = $_SERVER['HTTP_X_HUB_SIGNATURE'];
-    $keys['local'] = "sha1=" . env('GITHUB_SECRET');
-
-    // if(hash_equals($localKey, $suppliedKey)) {
-    if($keys['local'] == $keys['supplied']) {
-      //TODO perform:
-      chdir('..');
-      `php artisan down`;
-      `git reset --hard`;
-      `git pull origin master`;
-      //`composer install`;
-      //`npm install`;
-      //`php artisan migrate`;
-      `php artisan up`;
-      return `pwd`;
-    } else {
-      abort(500, 'Secret key does not match');
-    }
+    //TODO perform:
+    chdir('..');
+    `php artisan down`;
+    `git reset --hard`;
+    `git pull origin master`;
+    //`composer install`;
+    //`npm install`;
+    //`php artisan migrate`;
+    `php artisan up`;
+    return `pwd`;
   }
 
 }
