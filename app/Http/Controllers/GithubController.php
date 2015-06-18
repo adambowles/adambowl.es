@@ -30,17 +30,18 @@ class GithubController extends Controller {
   */
   public function pull()
   {
-    $suppliedKey = $_SERVER['HTTP_X_HUB_SIGNATURE'];
-    $localKey = "sha1=" . env('GITHUB_SECRET');
-
-    if(!isset($suppliedKey)) {
+    if(!isset($_SERVER['HTTP_X_HUB_SIGNATURE'])) {
+    // if(!isset($_SERVER['HTTP_TEST'])) {
       abort(500, 'Secret key not supplied');
     }
 
+    $suppliedKey = $_SERVER['HTTP_X_HUB_SIGNATURE'];
+    // $suppliedKey = $_SERVER['HTTP_TEST'];
+    $localKey = "sha1=" . env('GITHUB_SECRET');
+
     if(hash_equals($localKey, $suppliedKey)) {
       //TODO perform:
-      `cd ../`;
-      `touch test_file`;
+      chdir('..');
       //`php artisan down`;
       //`git reset --hard`;
       //`git pull origin master`;
@@ -48,7 +49,7 @@ class GithubController extends Controller {
       //`npm install`;
       //`php artisan migrate`;
       //`php artisan up`;
-      return 'success';
+      return `pwd`;
     } else {
       abort(500, 'Secret key does not match');
     }
