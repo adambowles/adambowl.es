@@ -48,6 +48,7 @@ class GithubController extends Controller {
       //`npm install`;
       //`php artisan migrate`;
       //`php artisan up`;
+      return 'success';
     } else {
       abort(500, 'Secret key does not match');
     }
