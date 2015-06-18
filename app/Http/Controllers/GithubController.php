@@ -50,12 +50,12 @@ class GithubController extends Controller {
 
     //TODO perform:
     chdir('..');
-    $output = shell_exec('pwd') . '<br>';
-    $output .= shell_exec('php artisan down') . '<br>';
-    $output .= shell_exec('git pull origin master') . '<br>';
-    //$output .= `composer install` . <br>;
-    //$output .= `npm install` . <br>;
-    //$output .= `php artisan migrate` . <br>;
+    $output = shell_exec('pwd');
+    $output .= shell_exec('php artisan down');
+    $output .= shell_exec('git pull origin master');
+    //$output .= `composer install`;
+    //$output .= `npm install`;
+    //$output .= `php artisan migrate`;
     $output .= shell_exec('php artisan up');
     return $output;
   }
