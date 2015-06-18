@@ -51,7 +51,6 @@ class GithubController extends Controller {
     //TODO perform:
     chdir('..');
     `php artisan down`;
-    // `git reset --hard`;
     `git pull origin master`;
     //`composer install`;
     //`npm install`;
