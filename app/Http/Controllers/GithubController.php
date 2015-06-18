@@ -31,7 +31,7 @@ class GithubController extends Controller {
   {
     // dd('hello');
     // $suppliedKey = $_SERVER['HTTP_X_HUB_SIGNATURE'];
-    dd($_SERVER);
+    dd($_SERVER); 
     $localKey = sha1(config('GITHUB_SECRET'));
 
     if(!isset($suppliedKey)) {
