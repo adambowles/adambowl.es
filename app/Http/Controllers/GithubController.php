@@ -49,14 +49,7 @@ class GithubController extends Controller {
     }
 
     chdir('..');
-    $output = 'pwd: ' . `pwd`;
-    $output .= `php artisan down`;
-    $output .= `git pull`;
-    //TODO perform maybe:
-    //$output .= `composer install`;
-    //$output .= `npm install`;
-    //$output .= `php artisan migrate`;
-    $output .= `php artisan up`;
+    $output = shell_exec('./build.sh');
     return $output;
   }
 
