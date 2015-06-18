@@ -39,7 +39,8 @@ class GithubController extends Controller {
     // $suppliedKey = $_SERVER['HTTP_TEST'];
     $localKey = "sha1=" . env('GITHUB_SECRET');
 
-    if(hash_equals($localKey, $suppliedKey)) {
+    // if(hash_equals($localKey, $suppliedKey)) {
+    if($localKey == $suppliedKey) {
       //TODO perform:
       chdir('..');
       //`php artisan down`;
