@@ -37,8 +37,6 @@ class GithubController extends Controller {
     $keys['supplied'] = $_SERVER['HTTP_X_HUB_SIGNATURE'];
     $keys['local'] = "sha1=" . env('GITHUB_SECRET');
 
-    dd($keys);
-
     // if(hash_equals($localKey, $suppliedKey)) {
     if($keys['local'] == $keys['supplied']) {
       //TODO perform:
