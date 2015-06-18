@@ -43,13 +43,13 @@ class GithubController extends Controller {
     if($localKey == $suppliedKey) {
       //TODO perform:
       chdir('..');
-      //`php artisan down`;
-      //`git reset --hard`;
-      //`git pull origin master`;
+      `php artisan down`;
+      `git reset --hard`;
+      `git pull origin master`;
       //`composer install`;
       //`npm install`;
       //`php artisan migrate`;
-      //`php artisan up`;
+      `php artisan up`;
       return `pwd`;
     } else {
       abort(500, 'Secret key does not match');
