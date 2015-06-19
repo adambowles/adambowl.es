@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, maximum-scale=1">
-  <title>Adam Bowles - test commit</title>
+  <title>Adam Bowles - test commits</title>
   <link rel="icon" type="image/png" href="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/favicon.png">
   <link rel="stylesheet" type="text/css" href="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/js/fancybox/jquery.fancybox.css">
