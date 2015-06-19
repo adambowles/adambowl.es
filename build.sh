@@ -1,6 +1,7 @@
 #!/bin/bash
 php artisan down
-git pull 2>&1
+git reset --hard
+git pull 2>&1 #re-route stderr into stdout
 #TODO perform maybe:
 #composer install
 #npm install

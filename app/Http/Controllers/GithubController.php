@@ -48,9 +48,11 @@ class GithubController extends Controller {
       abort(500, 'Hook secret does not match.');
     }
 
+    $phpUser = 'Running as: ' . get_current_user() . "\n";
+
     chdir('..');
     $output = shell_exec('./build.sh');
-    return $output;
+    return $phpUser . $output;
   }
 
 }
