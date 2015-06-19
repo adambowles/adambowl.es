@@ -35,7 +35,7 @@
       <div class="top_left_cont zoomIn wow animated" id="logo">
         <img class="img-circle" src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/guy.jpg" alt="">
 
-        <h2>Hello! I am John Doe <br><strong>A UX Designer &amp; Developer based in Beautiful World</strong></h2>
+        <h2>Hello! I am Adam Bowles <br><strong>A UX Designer &amp; Developer based in Beautiful World</strong></h2>
         <a href="#service" class="read_more2 scroll-link">Hire Me!</a>
       </div>
 
