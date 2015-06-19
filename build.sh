@@ -1,6 +1,6 @@
 #!/bin/bash
 php artisan down
-git pull
+git pull 2>&1
 #TODO perform maybe:
 #composer install
 #npm install
