@@ -1,0 +1,11 @@
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/js/jquery.nav.js"></script>
+<script type="text/javascript" src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/js/jquery.isotope.js"></script>
+<script type="text/javascript" src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/js/fancybox/jquery.fancybox.pack.js"></script>
+<script type="text/javascript" src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/js/wow.js"></script>
+<script type="text/javascript" src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/js/custom.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.6.2/js/min/perfect-scrollbar.jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.8.0/holder.min.js"></script>
