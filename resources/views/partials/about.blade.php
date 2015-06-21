@@ -2,7 +2,7 @@
   <div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
     <div class="container">
       <h2>About Me</h2>
-      <h6>A persone who loves Nature and It's creations</h6>
+      <h6>A person who loves Nature and It's creations</h6>
       <div class="inner_section">
         <div class="row">
           <div class="col-md-6"> <img class="img-responsive" src="holder.js/400x400" align=""> </div>
@@ -13,12 +13,11 @@
             <p>Lorem ipsum dolor sit amet, voluptaria, erant bonorum albucius et per, ei meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum gravida tortor.
             </p>
 
-            <ul class="about-us-list">
+            <ul>
               <li class="points">Consectetur Morbi sagittis, sem quisci ipsum gravida tortor</li>
               <li class="points">Sagittis, sem quis lacinia faucibus, orci ipsum gravida </li>
               <li class="points">Ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci</li>
             </ul>
-            <!-- /.about-us-list -->
 
           </div>
         </div>
