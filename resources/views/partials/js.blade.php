@@ -6,7 +6,7 @@
 <script type="text/javascript" src="{{ asset('js/jquery.isotope.js') }}"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
 <script type="text/javascript" src="{{ asset('js/wow.js') }}"></script>
-{!! HTML::script('js/custom.js') !!}
+{!! HTML::script(asset('js/custom.js')) !!}
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.6.2/js/min/perfect-scrollbar.jquery.min.js"></script>
 
 <!--[if lt IE 9]>
