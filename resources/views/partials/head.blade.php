@@ -13,7 +13,7 @@
   /*@import url('{{ asset('css/sanfrancisco.css') }}');*/
   @import url(http://nicholastodor.com/sf/usesf.css);
   * {
-    /*font-family: 'San Francisco Text', sans-serif;*/
+    font-family: 'San Francisco Text', sans-serif;
   }
 </style>
 
