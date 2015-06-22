@@ -364,7 +364,7 @@ p {
   text-align: center;
 }
 #head {
-  background: #f4f4f4 url(../img/bg_head.jpg) top center; /*TODO*/
+  background: #f4f4f4 url('http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/bg_head.jpg') top center; /*TODO*/
   background-size: cover;
   color: #7C7C7C;
   padding: 120px 0;
@@ -420,7 +420,7 @@ p {
 .top_cont_outer {
     background: #ED5441;
     position: relative; 
-    background: url('../img/main2.jpg') no-repeat; /*TODO*/
+    background: url('http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/main2.jpg') no-repeat; /*TODO*/
     background-size: cover; 
 }
 
