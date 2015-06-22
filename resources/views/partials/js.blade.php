@@ -8,4 +8,3 @@
 <script type="text/javascript" src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/js/wow.js"></script>
 <script type="text/javascript" src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/js/custom.js"></script>
 <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.6.2/js/min/perfect-scrollbar.jquery.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/holder/2.8.0/holder.min.js"></script>
