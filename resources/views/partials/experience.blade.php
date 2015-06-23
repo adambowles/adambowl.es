@@ -6,7 +6,7 @@
           <div class="date-title">
             <span>2015</span>
           </div>
-          <div class="row">
+          <div class="row news-row">
             <div class="col-sm-6 news-item">
               <div class="news-content">
                 <div class="date">
@@ -19,7 +19,7 @@
               </div>
             </div>
 
-            <div class="col-sm-6 news-item right">
+            <div class="col-sm-6 news-item">
               <div class="news-content">
                 <div class="date">
                   <p>Aug</p>
