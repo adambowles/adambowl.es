@@ -2021,10 +2021,11 @@ div.mc-image {
     padding-bottom:45px;
 }
 
-.news-item.right {
-    float:right;
-    margin-top:40px;
-}
+/*.news-row:nth-child(2) {*/
+/*.news-item.right {*/
+/*    float:right;*/
+/*    margin-top:40px;*/
+/*}*/
 
 .news-item .news-content {
     margin:20px 30px 0 0;
@@ -2036,6 +2037,11 @@ div.mc-image {
     box-shadow:-5px 5px 0 rgba(0,0,0,0.08);
     -webkit-transition:all .3s ease-out;
     transition:all .3s ease-out;
+}
+
+.news-item:nth-of-type(2n) {
+    float:right;
+    margin-top:40px;
 }
 
 .news-item:hover .news-content {
