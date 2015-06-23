@@ -3,21 +3,13 @@
     <section id="news" class="white-bg padding-top-bottom">
       <div class="container">
         <div class="timeline">
+          
           <div class="date-title">
             <span>2015</span>
           </div>
+          
           <div class="row news-row">
-            <div class="col-sm-6 news-item">
-              <div class="news-content">
-                <div class="date">
-                  <p>Oct</p>
-                </div>
-                <h2 class="news-title">Facebook</h2>
-                <span>UI/UX Designer</span>
-                <p>October 2013 - November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces no resultant pleasure</p>
-                <a class="read-more" href="#">Read More</a>
-              </div>
-            </div>
+            @include('partials.experience.item', ['date' => 'Da1', 'company' => 'Company',  'jobTitle' => 'Job title1',  'specificDates' => 'Specific date range',  'jobDescription' => 'Job description lorem ipsum'])
 
             <div class="col-sm-6 news-item">
               <div class="news-content">
