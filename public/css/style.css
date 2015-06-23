@@ -2052,7 +2052,7 @@ div.mc-image {
     display:block;
     content:"";
     position:absolute;
-    top:50px;
+    top: 15%;
     right:-40px;
     width:0px;
     height:0px;
@@ -2090,7 +2090,7 @@ div.mc-image {
     width:20px;
     height:20px;
     right:-55px;
-    top:60px;
+    top: 20%;
     background:#F74D4D;
     border:3px solid #fff;
     border-radius:50%;
