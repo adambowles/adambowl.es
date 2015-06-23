@@ -46,11 +46,11 @@
 
         <div class="portfolio_img">
           <!--<img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic1.jpg" alt="Portfolio 1">-->
-          <img src="http://lorempixel.com/output/city-q-c-825-550-1.jpg">
+          <img src="http://lorempixel.com/output/city-q-c-825-550-3.jpg">
         </div>
         <figcaption>
           <div>
-            <a href="http://lorempixel.com/output/city-q-c-825-550-1.jpg" class="fancybox">
+            <a href="http://lorempixel.com/output/city-q-c-825-550-3.jpg" class="fancybox">
               <h2>Warm <span>Oscar</span></h2>
               <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
             </a>
