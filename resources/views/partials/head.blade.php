@@ -6,12 +6,5 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('css/fancybox.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('css/style.css') }}">
 <link rel="stylesheet" type="text/css" href="{{ asset('css/animate.css') }}">
+<link rel="stylesheet" type="text/css" href="{{ asset('css/sanfrancisco.css') }}">
 <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-<style>
-  /*@import url('{{ asset('css/sanfrancisco.css') }}');*/
-  @import url(http://nicholastodor.com/sf/usesf.css);
-  * {
-    font-family: 'San Francisco Text', sans-serif;
-  }
-</style>
