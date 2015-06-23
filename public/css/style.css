@@ -2069,7 +2069,7 @@ div.mc-image {
     transition:border-left-color .3s ease-out;
 }
 
-.news-item.right .news-content:after {
+.news-item:nth-of-type(2n) .news-content:after {
     position:absolute;
     left:-40px;
     right:auto;
