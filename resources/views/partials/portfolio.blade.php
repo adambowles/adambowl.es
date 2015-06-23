@@ -1,24 +1,15 @@
 <section id="Portfolio" class="content">
 
-  <!-- Container -->
   <div class="container portfolio_title">
-
-    <!-- Title -->
     <div class="section-title">
       <h2>Portfolio</h2>
       <h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-
     </div>
-    <!--/Title -->
-
   </div>
-  <!-- Container -->
 
   <div class="portfolio-top"></div>
 
-  <!-- Portfolio Filters -->
   <div class="portfolio">
-
     <div id="filters" class="sixteen columns">
       <ul class="clearfix">
         <li>
@@ -48,11 +39,9 @@
         </li>
       </ul>
     </div>
-    <!--/Portfolio Filters -->
-
-    <!-- Portfolio Wrapper -->
+    
     <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">
-      <!-- Portfolio Item -->
+      
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   animals isotope-item effect-oscar">
 
         <div class="portfolio_img">
@@ -66,9 +55,7 @@
           </div>
         </figcaption>
       </figure>
-      <!--/Portfolio Item -->
-
-      <!-- Portfolio Item-->
+      
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic2.jpg" alt="Portfolio 1"> </div>
         <figcaption>
@@ -80,9 +67,7 @@
           </div>
         </figcaption>
       </figure>
-      <!--/Portfolio Item -->
-
-      <!-- Portfolio Item -->
+      
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife  isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic3.jpg" alt="Portfolio 1"> </div>
         <figcaption>
@@ -94,9 +79,7 @@
           </div>
         </figcaption>
       </figure>
-      <!--/Portfolio Item-->
-
-      <!-- Portfolio Item-->
+      
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  citylife  nature web isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic4.jpg" alt="Portfolio 1"> </div>
         <figcaption>
@@ -108,9 +91,7 @@
           </div>
         </figcaption>
       </figure>
-      <!-- Portfolio Item -->
-
-      <!-- Portfolio Item -->
+      
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic5.jpg" alt="Portfolio 1"> </div>
         <figcaption>
@@ -122,9 +103,7 @@
           </div>
         </figcaption>
       </figure>
-      <!--/Portfolio Item -->
-
-      <!-- Portfolio Item -->
+      
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic6.jpg" alt="Portfolio 1"> </div>
         <figcaption>
@@ -136,9 +115,7 @@
           </div>
         </figcaption>
       </figure>
-      <!--/Portfolio Item -->
-
-      <!-- Portfolio Item  -->
+      
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife web isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>
         <figcaption>
@@ -150,9 +127,7 @@
           </div>
         </figcaption>
       </figure>
-      <!--/Portfolio Item -->
-
-      <!-- Portfolio Item -->
+      
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   citylife isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>
         <figcaption>
@@ -164,16 +139,11 @@
           </div>
         </figcaption>
       </figure>
-      <!--/Portfolio Item -->
 
     </div>
-    <!--/Portfolio Wrapper -->
-
   </div>
-  <!--/Portfolio Filters -->
 
   <div class="portfolio_btm"></div>
-
 
   <div id="project_container">
     <div class="clear"></div>
