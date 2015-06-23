@@ -873,11 +873,13 @@ img {
   background-position-y: 70px;
 }
 
-#about-us,
-h2,
-h3,
-h6,
-p {
+#about-us > h1,
+#about-us > h2,
+#about-us > h3,
+#about-us > h4,
+#about-us > h5,
+#about-us > h6,
+#about-us > p {
   color: #0A1525;
 }
 
@@ -2351,6 +2353,9 @@ div.mc-image {
     padding: 60px 0 50px;
   }
 
+  .contact > * {
+  }
+
   .navbar-inverse .navbar-toggle .icon-bar {
     background: #FFFFFF;
   }
@@ -2423,6 +2428,10 @@ div.mc-image {
     display: none;
   }
 
+}
+
+.contact > * {
+  color: #fff;
 }
 
 * {
