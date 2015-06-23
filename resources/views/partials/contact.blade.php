@@ -9,7 +9,7 @@
         @include('partials.contact.info')
         @include('partials.contact.networks')
       </div>
-      <div class="col-lg-8 wow fadeInLeft delay-06s">
+      <div class="col-lg-8 wow fadeInLeft delay-04s">
         @include('partials.contact.form')
       </div>
     </div>
