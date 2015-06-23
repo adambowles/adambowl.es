@@ -2,7 +2,7 @@
   <div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
     <div class="container">
       <h2>About Me</h2>
-      <h6>A person who loves Nature and It's creations</h6>
+      <h6>A person who loves nature and its creations</h6>
       <div class="inner_section">
         <div class="row">
           <div class="col-md-6">
