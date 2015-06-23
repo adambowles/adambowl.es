@@ -47,49 +47,18 @@
       <div class="col-sm-6 col-md-6">
         <h2>Technical Skills</h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. um dolor sit amet, consectetur Morbi sagittis, simply dummy text of the printing and typesetting industry. um dolor sit amet, consec sem quisci ipsu
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. um dolor sit amet, consectetur Morbi. is, simply dummy text of the printing and typesetting industry. um dolor sit amet.
         </p>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting industry. um dolor sit amet, consectetur Morbi. is, simply dummy text of the printing and typesetting industry. um dolor sit amet.
         </p>
       </div>
       <div class="col-sm-6 col-md-6">
-
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-            <span class="sr-only">50% Complete</span>
-          </div>
-          <span class="progress-type">HTML / HTML5</span>
-          <span class="progress-completed">50%</span>
-        </div>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-            <span class="sr-only">50% Complete</span>
-          </div>
-          <span class="progress-type">CSS / CSS3</span>
-          <span class="progress-completed">50%</span>
-        </div>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-            <span class="sr-only">50% Complete</span>
-          </div>
-          <span class="progress-type">PHP</span>
-          <span class="progress-completed">50%</span>
-        </div>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
-            <span class="sr-only">50% Complete</span>
-          </div>
-          <span class="progress-type">Laravel</span>
-          <span class="progress-completed">50%</span>
-        </div>
-        <div class="progress">
-          <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
-            <span class="sr-only">100% Complete</span>
-          </div>
-          <span class="progress-type">JavaScript / jQuery</span>
-          <span class="progress-completed">100%</span>
-        </div>
+        @include('partials.skills.bar', ['name' => 'HTML / HTML5',        'progress' => '20'])
+        @include('partials.skills.bar', ['name' => 'CSS / CSS3',          'progress' => '40'])
+        @include('partials.skills.bar', ['name' => 'PHP',                 'progress' => '60'])
+        @include('partials.skills.bar', ['name' => 'Laravel',             'progress' => '80'])
+        @include('partials.skills.bar', ['name' => 'JavaScript / jQuery', 'progress' => '100'])
       </div>
     </div>
   </div>
