@@ -40,7 +40,8 @@
       </ul>
     </div>
     
-    <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">
+    <!--<div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">-->
+    <div class="isotope grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">
       
       @include('partials.portfolio.item', ['title' => 'Lorem', 'description' => 'Morbi pharetra turpis sit amet est convallis facilisis',  'backgroundURL' => 'http://lorempixel.com/output/city-q-c-825-550-3.jpg'])
       
