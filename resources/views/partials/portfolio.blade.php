@@ -40,108 +40,16 @@
       </ul>
     </div>
     
-    <!--<div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">-->
     <div class="isotope grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">
       
       @include('partials.portfolio.item', ['title' => 'Lorem', 'description' => 'Morbi pharetra turpis sit amet est convallis facilisis',  'backgroundURL' => 'http://lorempixel.com/output/city-q-c-825-550-3.jpg'])
-      
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="development portfolio-item one-four isotope-item effect-oscar">
-        <div class="portfolio_img">
-          <img src="http://lorempixel.com/output/city-q-c-825-550-5.jpg">
-        </div>
-        <figcaption>
-          <div>
-            <a href="http://lorempixel.com/output/city-q-c-825-550-5.jpg" class="fancybox">
-              <h2>Ipsum</h2>
-              <p>Fusce tristique, erat sed vehicula semper, leo ipsum volutpat arcu, id pretium arcu massa at turpis</p>
-            </a>
-          </div>
-        </figcaption>
-      </figure>
-      
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="development portfolio-item one-four isotope-item effect-oscar">
-        <div class="portfolio_img">
-          <img src="http://lorempixel.com/output/transport-q-c-825-550-10.jpg">
-        </div>
-        <figcaption>
-          <div>
-            <a href="http://lorempixel.com/output/transport-q-c-825-550-10.jpg" class="fancybox">
-              <h2>Dolor</h2>
-              <p>Quisque varius, sem vel malesuada rutrum, libero libero dictum lectus, in fermentum turpis leo a lectus</p>
-            </a>
-          </div>
-        </figcaption>
-      </figure>
-      
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="web design portfolio-item one-four isotope-item effect-oscar">
-        <div class="portfolio_img">
-          <img src="http://lorempixel.com/output/transport-q-c-825-550-8.jpg">
-        </div>
-        <figcaption>
-          <div>
-            <a href="http://lorempixel.com/output/transport-q-c-825-550-8.jpg" class="fancybox">
-              <h2>Sit</h2>
-              <p>Phasellus vel urna ut felis commodo tincidunt sit amet quis leo</p>
-            </a>
-          </div>
-        </figcaption>
-      </figure>
-      
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="development portfolio-item one-four isotope-item effect-oscar">
-        <div class="portfolio_img">
-          <img src="http://lorempixel.com/output/technics-q-c-825-550-8.jpg">
-        </div>
-        <figcaption>
-          <div>
-            <a href="http://lorempixel.com/output/technics-q-c-825-550-8.jpg" class="fancybox">
-              <h2>Amet</h2>
-              <p>Aliquam pretium consectetur dolor, quis lobortis ligula vestibulum non</p>
-            </a>
-          </div>
-        </figcaption>
-      </figure>
-      
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="web portfolio-item one-four isotope-item effect-oscar">
-        <div class="portfolio_img">
-          <img src="http://lorempixel.com/output/technics-q-c-825-550-2.jpg">
-        </div>
-        <figcaption>
-          <div>
-            <a href="http://lorempixel.com/output/technics-q-c-825-550-2.jpg" class="fancybox">
-              <h2>Consectetur</h2>
-              <p>Nunc ultricies quam nec turpis luctus vestibulum eu at purus</p>
-            </a>
-          </div>
-        </figcaption>
-      </figure>
-      
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="web development portfolio-item one-four isotope-item effect-oscar">
-        <div class="portfolio_img">
-          <img src="http://lorempixel.com/output/technics-q-c-825-550-7.jpg">
-        </div>
-        <figcaption>
-          <div>
-            <a href="http://lorempixel.com/output/technics-q-c-825-550-7.jpg" class="fancybox">
-              <h2>Adipiscing</h2>
-              <p>Quisque a justo quis arcu feugiat fermentum in vel eros</p>
-            </a>
-          </div>
-        </figcaption>
-      </figure>
-      
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="web portfolio-item one-four isotope-item effect-oscar">
-        <div class="portfolio_img">
-          <img src="http://lorempixel.com/output/sports-q-c-825-550-1.jpg">
-        </div>
-        <figcaption>
-          <div>
-            <a href="http://lorempixel.com/output/sports-q-c-825-550-1.jpg" class="fancybox">
-              <h2>Elit</h2>
-              <p>Fusce in elit tincidunt turpis tempor viverra</p>
-            </a>
-          </div>
-        </figcaption>
-      </figure>
+      @include('partials.portfolio.item', ['title' => 'Ipsum', 'description' => 'Fusce tristique, erat sed vehicula semper, leo ipsum',  'backgroundURL' => 'http://lorempixel.com/output/city-q-c-825-550-5.jpg'])
+      @include('partials.portfolio.item', ['title' => 'Dolor', 'description' => 'Quisque varius, sem vel malesuada rutrum, libero libero',  'backgroundURL' => 'http://lorempixel.com/output/transport-q-c-825-550-10.jpg'])
+      @include('partials.portfolio.item', ['title' => 'Sit', 'description' => 'Phasellus vel urna ut felis commodo tincidunt sit amet quis leo',  'backgroundURL' => 'http://lorempixel.com/output/transport-q-c-825-550-8.jpg'])
+      @include('partials.portfolio.item', ['title' => 'Amet', 'description' => 'Aliquam pretium consectetur dolor, quis lobortis ligula vestibulum non',  'backgroundURL' => 'http://lorempixel.com/output/technics-q-c-825-550-8.jpg'])
+      @include('partials.portfolio.item', ['title' => 'Consectetur', 'description' => 'Nunc ultricies quam nec turpis luctus vestibulum eu at purus',  'backgroundURL' => 'http://lorempixel.com/output/technics-q-c-825-550-2.jpg'])
+      @include('partials.portfolio.item', ['title' => 'Adipiscing', 'description' => 'Quisque a justo quis arcu feugiat fermentum in vel eros',  'backgroundURL' => 'http://lorempixel.com/output/technics-q-c-825-550-7.jpg'])
+      @include('partials.portfolio.item', ['title' => 'Elit', 'description' => 'Fusce in elit tincidunt turpis tempor viverra',  'backgroundURL' => 'http://lorempixel.com/output/sports-q-c-825-550-1.jpg'])
 
     </div>
   </div>
