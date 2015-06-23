@@ -1,13 +1,17 @@
-<div class="contact_info">
-  <div class="detail">
+<div class="row lead">
+  <div class="col-xs-12">
     <h4>Email me</h4>
-    <p><a href="mailto:contact@adambowl.es">contact@adambowl.es</a></p>
+    <a href="mailto:contact@adambowl.es">contact@adambowl.es</a>
   </div>
-  <div class="detail">
+</div>
+<div class="row lead">
+  <div class="col-xs-12">
     <h4>Call me</h4>
-    <p><tel>07584 356 713</tel></p>
+    <tel>07584 356 713</tel>
   </div>
-  <div class="detail">
+</div>
+<div class="row lead">
+  <div class="col-xs-12">
     <h4>Write to me</h4>
     <p>277 Droitwich Road, Worcester, WR3 7SU</p>
   </div>
