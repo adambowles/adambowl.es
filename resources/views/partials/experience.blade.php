@@ -9,75 +9,24 @@
           </div>
           
           <div class="row news-row">
-            @include('partials.experience.item', ['date' => 'Da1', 'company' => 'Company',  'jobTitle' => 'Job title1',  'specificDates' => 'Specific date range',  'jobDescription' => 'Job description lorem ipsum'])
-
-            <div class="col-sm-6 news-item">
-              <div class="news-content">
-                <div class="date">
-                  <p>Aug</p>
-                </div>
-                <h2 class="news-title">Google</h2>
-                <span>UI/UX Designer</span>
-                <p>October 2013 - November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces no resultant pleasure</p>
-                <a class="read-more" href="#">Read More</a>
-              </div>
-            </div>
+            @include('partials.experience.item', ['date' => 'Oct', 'company' => 'Company',  'jobTitle' => 'Job title1',  'specificDates' => 'Specific date range',  'jobDescription' => 'Job description lorem ipsum'])
+            @include('partials.experience.item', ['date' => 'Jul', 'company' => 'Company',  'jobTitle' => 'Job title1',  'specificDates' => 'Specific date range',  'jobDescription' => 'Job description lorem ipsum'])
           </div>
-
-          <div class="row">
-            <div class="col-sm-6 news-item">
-              <div class="news-content">
-                <div class="date">
-                  <p>Apr</p>
-                </div>
-                <h2 class="news-title">Microsoft</h2>
-                <span>UI/UX Designer</span>
-                <p>October 2013 - November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces no resultant pleasure</p>
-                <a class="read-more" href="#">Read More</a>
-              </div>
-            </div>
-
-            <div class="col-sm-6 news-item right">
-              <div class="news-content">
-                <div class="date">
-                  <p>Feb</p>
-                </div>
-                <h2 class="news-title">Apple</h2>
-                <span>UI/UX Designer</span>
-                <p>October 2013 - November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces no resultant pleasure</p>
-                <a class="read-more" href="#">Read More</a>
-              </div>
-            </div>
+          
+          <div class="row news-row">
+            @include('partials.experience.item', ['date' => 'Apr', 'company' => 'Company',  'jobTitle' => 'Job title1',  'specificDates' => 'Specific date range',  'jobDescription' => 'Job description lorem ipsum'])
+            @include('partials.experience.item', ['date' => 'Jan', 'company' => 'Company',  'jobTitle' => 'Job title1',  'specificDates' => 'Specific date range',  'jobDescription' => 'Job description lorem ipsum'])
           </div>
 
           <div class="date-title">
             <span>2013</span>
           </div>
-          <div class="row">
-            <div class="col-sm-6 news-item">
-              <div class="news-content">
-                <div class="date">
-                  <p>Aug</p>
-                </div>
-                <h2 class="news-title">Intel</h2>
-                <span>UI Designer</span>
-                <p>October 2013 - November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that.</p>
-                <a class="read-more" href="#">Read More</a>
-              </div>
-            </div>
-
-            <div class="col-sm-6 news-item right">
-              <div class="news-content">
-                <div class="date">
-                  <p>Jan</p>
-                </div>
-                <h2 class="news-title">Amazon</h2>
-                <span>Designer</span>
-                <p>October 2013 - November 2013 (2 months)Menlo Park, CA, United States of America or one who avoids a pain that produces.</p>
-                <a class="read-more" href="#">Read More</a>
-              </div>
-            </div>
+          
+          <div class="row news-row">
+            @include('partials.experience.item', ['date' => 'Oct', 'company' => 'Company',  'jobTitle' => 'Job title1',  'specificDates' => 'Specific date range',  'jobDescription' => 'Job description lorem ipsum'])
+            @include('partials.experience.item', ['date' => 'Jul', 'company' => 'Company',  'jobTitle' => 'Job title1',  'specificDates' => 'Specific date range',  'jobDescription' => 'Job description lorem ipsum'])
           </div>
+          
         </div>
       </div>
     </section>
