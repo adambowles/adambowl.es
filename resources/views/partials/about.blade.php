@@ -6,7 +6,7 @@
       <div class="inner_section">
         <div class="row">
           <div class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/400x400" align="">
+            <img class="img-responsive" src="http://placehold.it/400x400">
           </div>
           <div class="col-md-6">
             <h3>My Passion</h3>
