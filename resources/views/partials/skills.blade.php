@@ -54,11 +54,11 @@
         </p>
       </div>
       <div class="col-sm-6 col-md-6">
-        @include('partials.skills.bar', ['name' => 'HTML / HTML5',        'progress' => '20'])
-        @include('partials.skills.bar', ['name' => 'CSS / CSS3',          'progress' => '40'])
-        @include('partials.skills.bar', ['name' => 'PHP',                 'progress' => '60'])
-        @include('partials.skills.bar', ['name' => 'Laravel',             'progress' => '80'])
-        @include('partials.skills.bar', ['name' => 'JavaScript / jQuery', 'progress' => '100'])
+        @include('partials.skills.bar', ['name' => 'HTML / HTML5',        'progress' => '90'])
+        @include('partials.skills.bar', ['name' => 'CSS / CSS3',          'progress' => '85'])
+        @include('partials.skills.bar', ['name' => 'JavaScript / jQuery', 'progress' => '80'])
+        @include('partials.skills.bar', ['name' => 'PHP',                 'progress' => '70'])
+        @include('partials.skills.bar', ['name' => 'Laravel',             'progress' => '30'])
       </div>
     </div>
   </div>
