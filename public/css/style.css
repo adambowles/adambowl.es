@@ -177,7 +177,6 @@ figure.effect-oscar:hover p {
   -webkit-transform: scale(1);
   transform: scale(1);
   color: #fff;
-  +++++++
 }
 
 figure.effect-oscar:hover figcaption {
@@ -235,13 +234,11 @@ p {
 #header_wrapper {
   background: #0A1525;
   padding: 15px 0px;
-  box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.44);
   position: relative;
 }
 
 .header_box {
   position: relative;
-  /* z-index: 9999999999999999999999999999999999; */
 }
 
 .logo a {
@@ -287,8 +284,6 @@ p {
 }
 
 .navStyle ul li:first-child {
-  /*margin:0px;*/
-  ;
 }
 
 .navStyle ul li:last-child {
@@ -356,10 +351,12 @@ p {
   text-align: center;
 }
 
+#header {
+  background-color: #0971B2;
+}
+
 #head {
-  /*background: #1485CC url('/images/header.jpg') bottom center; /*TODO*/
-  background: #1485CC url('http://maxcdn.thedesigninspiration.com/wp-content/uploads/2013/02/Escheresque-Dark-l.jpg') repeat; /*TODO*/
-  /*background-size: cover;*/
+  background: url('/images/escheresque.png') repeat;
   color: #7C7C7C;
   padding: 120px 0;
   text-transform: none;
@@ -372,12 +369,10 @@ p {
   overflow: hidden;
   border: 8px solid rgba(255, 255, 255, 0.23);
   margin: 0 auto 20px;
-  /*box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);*/
   border-radius: 24px;
 }
 
 #head .title {
-  font-family: Alice, Georgia, serif;
   font-size: 49px;
   font-size: 3.0625rem;
 }
@@ -424,7 +419,6 @@ p {
 .top_cont_outer {
   background: #ED5441;
   position: relative;
-  background: url('http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/main2.jpg') no-repeat; /*TODO*/
   background-size: cover;
 }
 
@@ -464,7 +458,7 @@ p {
 
 .top_left_cont h2 {
   font-size: 36px;
-  color: #FFF;
+  color: #0A1525;
   line-height: 58px;
   margin: 0 0 26px 0;
   text-align: center;
@@ -640,7 +634,7 @@ div#main-nav {
 }
 
 .service-list-col1 i {
-  display: ;
+  /*display: ;*/
   color: #888;
   font-size: 19px;
   font-style: normal;
