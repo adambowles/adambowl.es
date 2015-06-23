@@ -5,7 +5,7 @@
   <figcaption>
     <div>
       <a href="{{ isset($backgroundURL) ? $backgroundURL : 'http://lorempixel.com/output/sports-q-c-825-550-5.jpg' }}" class="fancybox">
-        <h2>{{ isset($title) ? $title : Lorem Ipsum }}</h2>
+        <h2>{{ isset($title) ? $title : 'Lorem Ipsum' }}</h2>
         <p>{{ isset($description) ? $description : 'Description placeholder; lorem ipsum dolor sit amet' }}</p>
       </a>
     </div>
