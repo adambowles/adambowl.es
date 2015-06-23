@@ -45,7 +45,6 @@
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="mobile portfolio-item one-four isotope-item effect-oscar">
 
         <div class="portfolio_img">
-          <!--<img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic1.jpg" alt="Portfolio 1">-->
           <img src="http://lorempixel.com/output/city-q-c-825-550-3.jpg">
         </div>
         <figcaption>
@@ -60,7 +59,6 @@
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="development portfolio-item one-four isotope-item effect-oscar">
         <div class="portfolio_img">
-          <!--<img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic1.jpg" alt="Portfolio 1">-->
           <img src="http://lorempixel.com/output/city-q-c-825-550-5.jpg">
         </div>
         <figcaption>
@@ -75,7 +73,6 @@
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="development portfolio-item one-four isotope-item effect-oscar">
         <div class="portfolio_img">
-          <!--<img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic1.jpg" alt="Portfolio 1">-->
           <img src="http://lorempixel.com/output/transport-q-c-825-550-10.jpg">
         </div>
         <figcaption>
@@ -90,7 +87,6 @@
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="web design portfolio-item one-four isotope-item effect-oscar">
         <div class="portfolio_img">
-          <!--<img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic1.jpg" alt="Portfolio 1">-->
           <img src="http://lorempixel.com/output/transport-q-c-825-550-8.jpg">
         </div>
         <figcaption>
@@ -105,7 +101,6 @@
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="development portfolio-item one-four isotope-item effect-oscar">
         <div class="portfolio_img">
-          <!--<img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic1.jpg" alt="Portfolio 1">-->
           <img src="http://lorempixel.com/output/technics-q-c-825-550-8.jpg">
         </div>
         <figcaption>
@@ -120,7 +115,6 @@
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="web portfolio-item one-four isotope-item effect-oscar">
         <div class="portfolio_img">
-          <!--<img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic1.jpg" alt="Portfolio 1">-->
           <img src="http://lorempixel.com/output/technics-q-c-825-550-2.jpg">
         </div>
         <figcaption>
@@ -135,7 +129,6 @@
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="web development portfolio-item one-four isotope-item effect-oscar">
         <div class="portfolio_img">
-          <!--<img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic1.jpg" alt="Portfolio 1">-->
           <img src="http://lorempixel.com/output/technics-q-c-825-550-7.jpg">
         </div>
         <figcaption>
@@ -150,7 +143,6 @@
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="web portfolio-item one-four isotope-item effect-oscar">
         <div class="portfolio_img">
-          <!--<img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic1.jpg" alt="Portfolio 1">-->
           <img src="http://lorempixel.com/output/sports-q-c-825-550-1.jpg">
         </div>
         <figcaption>
