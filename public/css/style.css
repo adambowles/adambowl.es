@@ -2107,6 +2107,7 @@ div.mc-image {
     width:80px;
     height:80px;
     left:10px;
+    top: 35%;
     text-align:center;
     color:#F74D4D;
     -webkit-transition:color .3s ease-out;
