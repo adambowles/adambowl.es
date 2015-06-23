@@ -1,5 +1,5 @@
 <section id="aboutUs">
-  <div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
+  <div class="inner_wrapper about-us aboutUs-container">
     <div class="container">
       <h2>About Me</h2>
       <h6>A person who loves nature and its creations</h6>
