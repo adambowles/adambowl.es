@@ -1,4 +1,4 @@
-<footer class="footer_wrapper" id="contact">
+<footer class="footer_wrapper">
   @include('partials.contact')
 
   <div class="container">
