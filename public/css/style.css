@@ -1,13 +1,4 @@
-/*
-Author URI: http://webthemez.com/
-Note:
-Licence under Creative Commons Attribution 3.0
--------------------------------------------------------*/
 @charset "utf-8";
-/*@import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
-@import url(http://fonts.googleapis.com/css?family=Signika:400,600);*/
-/* Reset
----------------------------------*/
 ul {
   list-style: none;
 }
@@ -211,7 +202,6 @@ body {
 h2 {
   font-size: 38px;
   color: #222222;
-  /*font-family: 'Raleway', sans-serif;*/
   font-weight: normal;
   margin: 0px 0 25px 0;
   text-align: center;
@@ -309,7 +299,6 @@ p {
   display: block;
   font-size: 15px;
   color: #222222;
-  /*font-family: 'Raleway', sans-serif;*/
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 400;
@@ -369,13 +358,11 @@ p {
 
 #head {
   /*background: #1485CC url('/images/header.jpg') bottom center; /*TODO*/
-  ;
-  */ background: #1485CC url('http://maxcdn.thedesigninspiration.com/wp-content/uploads/2013/02/Escheresque-Dark-l.jpg') repeat;
-  /*TODO*/
-  ;
-  background-size: cover;
+  background: #1485CC url('http://maxcdn.thedesigninspiration.com/wp-content/uploads/2013/02/Escheresque-Dark-l.jpg') repeat; /*TODO*/
+  /*background-size: cover;*/
   color: #7C7C7C;
   padding: 120px 0;
+  text-transform: none;
 }
 
 #head img.portrait {
@@ -437,8 +424,7 @@ p {
 .top_cont_outer {
   background: #ED5441;
   position: relative;
-  background: url('http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/main2.jpg') no-repeat;
-  /*TODO*/
+  background: url('http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/main2.jpg') no-repeat; /*TODO*/
   background-size: cover;
 }
 
@@ -481,9 +467,8 @@ p {
   color: #FFF;
   line-height: 58px;
   margin: 0 0 26px 0;
-  /*font-family: 'Raleway', sans-serif;*/
   text-align: center;
-  text-transform: capitalize;
+  text-transform: none;
 }
 
 .top_left_cont h2 strong {
@@ -501,14 +486,12 @@ p {
   text-align: center;
   font-weight: normal;
   font-size: 20px;
-  /* font-weight: 300; */
   text-align: center;
   letter-spacing: 1px;
 }
 
 a.read_more,
 a.read_more2 {
-  /*font-family: 'Raleway', sans-serif;*/
   display: block;
   font-size: 20px;
   width: 178px;
@@ -609,7 +592,6 @@ div#main-nav {
 }
 
 .service_block h3 {
-  /*font-family: 'Raleway', sans-serif;*/
   font-weight: 600;
   font-size: 25px;
   color: #fff;
@@ -695,7 +677,6 @@ a.contact_btn {
   font-size: 16px;
   color: #ED5441;
   border-radius: 3px;
-  /*font-family: 'Raleway', sans-serif;*/
   font-weight: 600;
   border: 2px solid #ED5441;
   transition: all 0.2s ease-in-out;
@@ -1457,9 +1438,7 @@ p {
 }
 
 .section-title h2 {
-  color: #222222;
-  /*font-family: 'Raleway', sans-serif;*/
-  font-size: 34px;
+  color: #222222;  font-size: 34px;
   letter-spacing: -1px;
   margin: 0 0 15px;
   text-align: center;
@@ -1755,7 +1734,6 @@ p {
 .project-section-title h1 {
   margin-bottom: 5px!important;
   letter-spacing: 1px;
-  /*font-family: 'Raleway', sans-serif;*/
 }
 
 .project-page {
