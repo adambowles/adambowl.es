@@ -51,8 +51,8 @@
         <figcaption>
           <div>
             <a href="http://lorempixel.com/output/city-q-c-825-550-3.jpg" class="fancybox">
-              <h2>Warm <span>Oscar</span></h2>
-              <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+              <h2>Lorem</h2>
+              <p>Morbi pharetra turpis sit amet est convallis facilisis</p>
             </a>
           </div>
         </figcaption>
@@ -66,8 +66,8 @@
         <figcaption>
           <div>
             <a href="http://lorempixel.com/output/city-q-c-825-550-5.jpg" class="fancybox">
-              <h2>Warm <span>Oscar</span></h2>
-              <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+              <h2>Ipsum</h2>
+              <p>Fusce tristique, erat sed vehicula semper, leo ipsum volutpat arcu, id pretium arcu massa at turpis</p>
             </a>
           </div>
         </figcaption>
@@ -81,8 +81,8 @@
         <figcaption>
           <div>
             <a href="http://lorempixel.com/output/transport-q-c-825-550-10.jpg" class="fancybox">
-              <h2>Warm <span>Oscar</span></h2>
-              <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+              <h2>Dolor</h2>
+              <p>Quisque varius, sem vel malesuada rutrum, libero libero dictum lectus, in fermentum turpis leo a lectus</p>
             </a>
           </div>
         </figcaption>
@@ -96,8 +96,8 @@
         <figcaption>
           <div>
             <a href="http://lorempixel.com/output/transport-q-c-825-550-8.jpg" class="fancybox">
-              <h2>Warm <span>Oscar</span></h2>
-              <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+              <h2>Sit</h2>
+              <p>Phasellus vel urna ut felis commodo tincidunt sit amet quis leo</p>
             </a>
           </div>
         </figcaption>
@@ -111,8 +111,8 @@
         <figcaption>
           <div>
             <a href="http://lorempixel.com/output/technics-q-c-825-550-8.jpg" class="fancybox">
-              <h2>Warm <span>Oscar</span></h2>
-              <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+              <h2>Amet</h2>
+              <p>Aliquam pretium consectetur dolor, quis lobortis ligula vestibulum non</p>
             </a>
           </div>
         </figcaption>
@@ -126,8 +126,8 @@
         <figcaption>
           <div>
             <a href="http://lorempixel.com/output/technics-q-c-825-550-2.jpg" class="fancybox">
-              <h2>Warm <span>Oscar</span></h2>
-              <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+              <h2>Consectetur</h2>
+              <p>Nunc ultricies quam nec turpis luctus vestibulum eu at purus</p>
             </a>
           </div>
         </figcaption>
@@ -141,8 +141,8 @@
         <figcaption>
           <div>
             <a href="http://lorempixel.com/output/technics-q-c-825-550-7.jpg" class="fancybox">
-              <h2>Warm <span>Oscar</span></h2>
-              <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+              <h2>Adipiscing</h2>
+              <p>Quisque a justo quis arcu feugiat fermentum in vel eros</p>
             </a>
           </div>
         </figcaption>
@@ -156,8 +156,8 @@
         <figcaption>
           <div>
             <a href="http://lorempixel.com/output/sports-q-c-825-550-1.jpg" class="fancybox">
-              <h2>Warm <span>Oscar</span></h2>
-              <p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+              <h2>Elit</h2>
+              <p>Fusce in elit tincidunt turpis tempor viverra</p>
             </a>
           </div>
         </figcaption>
