@@ -45,7 +45,8 @@
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   animals isotope-item effect-oscar">
 
         <div class="portfolio_img">
-          <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic1.jpg" alt="Portfolio 1"> </div>
+          <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic1.jpg" alt="Portfolio 1">
+        </div>
         <figcaption>
           <div>
             <a href="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic1.jpg" class="fancybox">
@@ -57,7 +58,9 @@
       </figure>
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic2.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img">
+          <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic2.jpg" alt="Portfolio 1">
+        </div>
         <figcaption>
           <div>
             <a href="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic2.jpg" class="fancybox">
@@ -69,7 +72,9 @@
       </figure>
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife  isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic3.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img">
+          <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic3.jpg" alt="Portfolio 1">
+        </div>
         <figcaption>
           <div>
             <a href="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic3.jpg" class="fancybox">
@@ -81,7 +86,9 @@
       </figure>
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  citylife  nature web isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic4.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img">
+          <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic4.jpg" alt="Portfolio 1">
+        </div>
         <figcaption>
           <div>
             <a href="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic4.jpg" class="fancybox">
@@ -93,7 +100,9 @@
       </figure>
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic5.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img">
+          <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic5.jpg" alt="Portfolio 1">
+        </div>
         <figcaption>
           <div>
             <a href="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic5.jpg" class="fancybox">
@@ -105,7 +114,9 @@
       </figure>
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic6.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img">
+          <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic6.jpg" alt="Portfolio 1">
+        </div>
         <figcaption>
           <div>
             <a href="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic6.jpg" class="fancybox">
@@ -117,7 +128,9 @@
       </figure>
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife web isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img">
+          <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic7.jpg" alt="Portfolio 1">
+        </div>
         <figcaption>
           <div>
             <a href="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic7.jpg" class="fancybox">
@@ -129,7 +142,9 @@
       </figure>
       
       <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   citylife isotope-item effect-oscar">
-        <div class="portfolio_img"> <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>
+        <div class="portfolio_img">
+          <img src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic8.jpg" alt="Portfolio 1">
+        </div>
         <figcaption>
           <div>
             <a href="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/portfolio_pic8.jpg" class="fancybox">
