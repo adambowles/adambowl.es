@@ -18,11 +18,11 @@
             @include('partials.experience.item', ['date' => 'Jan', 'company' => 'Company',  'jobTitle' => 'Job title1',  'specificDates' => 'Specific date range',  'jobDescription' => 'Job description lorem ipsum'])
           </div>
 
-          <div class="date-title">
+          <!-- <div class="date-title">
             <span>2013</span>
           </div>
 
-          <!-- <div class="row news-row">
+          <div class="row news-row">
             @include('partials.experience.item', ['date' => 'Jun', 'company' => 'Roxel (UK Rocket Motors) Ltd',  'jobTitle' => 'Software Engineer',  'specificDates' => 'June 2013 - present',  'jobDescription' => 'Job description lorem ipsum'])
           </div>
 
