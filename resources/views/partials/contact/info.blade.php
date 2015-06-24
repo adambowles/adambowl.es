@@ -13,6 +13,9 @@
 <div class="row lead">
   <div class="col-xs-12">
     <h4>Write to me</h4>
-    <p>277 Droitwich Road, Worcester, WR3 7SU</p>
+    <p>277 Droitwich Road</p>
+    <p>Fernhill Heath</p>
+    <p>Worcestershire</p>
+    <p>WR3 7SU</p>
   </div>
 </div>
