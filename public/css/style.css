@@ -356,7 +356,7 @@ p {
 }
 
 #head {
-  background: url('/images/header.png') repeat;
+  background: url('http://i.imgur.com/QSiZU6T.png') repeat; /*TODO local*/
   color: #7C7C7C;
   padding: 120px 0;
   text-transform: none;
