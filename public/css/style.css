@@ -356,7 +356,7 @@ p {
 }
 
 #head {
-  background: url('http://i.imgur.com/QSiZU6T.png') repeat; /*TODO local*/
+  background: url('../images/header.png') fixed repeat;
   color: #7C7C7C;
   padding: 120px 0;
   text-transform: none;
@@ -1243,8 +1243,30 @@ img {
   color: #dd4b39;
 }
 
+.social-btn {
+  /*width: 175px;*/
+  display: block;
+  /*height: 50px;*/
+  letter-spacing: 0px;
+  background: #1485CC;
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 0px;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+
+.social-btn:hover {
+  background: #fff;
+  color: #222;
+}
+
 .form {
-  margin: 0 66px 0 30px;
+  /*margin: 0 66px 0 30px;*/
 }
 
 .input-text {
@@ -2000,11 +2022,6 @@ div.mc-image {
   padding-bottom: 45px;
 }
 
-/*.news-row:nth-child(2) {*/
-/*.news-item.right {*/
-/*  float:right;*/
-/*  margin-top:40px;*/
-/*}*/
 .news-item .news-content {
   margin: 20px 30px 0 0;
   position: relative;
@@ -2041,7 +2058,7 @@ div.mc-image {
   height: 0px;
   background: transparent;
   border: 20px solid transparent;
-  border-left: 20px solid #f5f5f5;
+  border-left: 20px solid #F0F0F0;
   -webkit-transition: border-left-color .3s ease-out;
   transition: border-left-color .3s ease-out;
 }
@@ -2313,10 +2330,6 @@ div.mc-image {
 
   #filters ul {
     padding-left: 0px;
-  }
-
-  .form {
-    margin: 0 18px;
   }
 
   .page_section.team {
