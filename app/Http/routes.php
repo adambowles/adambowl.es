@@ -13,6 +13,8 @@
 
 Route::get('/', 'WelcomeController@index');
 
+Route::get('/material', 'WelcomeController@material');
+
 // Route::get('home', 'HomeController@index');
 
 Route::post('github_pull', 'GithubController@pull');

@@ -33,4 +33,15 @@ class WelcomeController extends Controller {
 		return view('welcome');
 	}
 
+	/**
+	 * Show the application welcome screen to the user
+	 * with a material design style
+	 *
+	 * @return Response
+	 */
+	public function material()
+	{
+		return view('material');
+	}
+
 }
