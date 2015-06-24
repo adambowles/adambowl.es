@@ -7,7 +7,7 @@
 <div class="row lead">
   <div class="col-xs-12">
     <h4>Call me</h4>
-    <tel>07584 356 713</tel>
+    <a href="tel:+447584356713">07584 356 713</a>
   </div>
 </div>
 <div class="row lead">
