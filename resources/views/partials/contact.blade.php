@@ -5,11 +5,11 @@
     </div>
 
     <div class="row">
-      <div class="col-lg-4 wow fadeInLeft">
+      <div class="col-lg-4 text-center">
         @include('partials.contact.info')
         @include('partials.contact.networks')
       </div>
-      <div class="col-lg-8 wow fadeInLeft delay-04s">
+      <div class="col-lg-8">
         @include('partials.contact.form')
       </div>
     </div>
