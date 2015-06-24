@@ -2012,7 +2012,7 @@ div.mc-image {
   padding-left: 100px;
   background: #f5f5f5;
   border-radius: 10px;
-  box-shadow: -5px 5px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 5px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: all .3s ease-out;
   transition: all .3s ease-out;
 }
@@ -2029,7 +2029,6 @@ div.mc-image {
 
 .news-item:nth-of-type(2n) .news-content {
   margin: 20px 0 0 30px;
-  box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.08);
 }
 
 .news-item .news-content:after {
