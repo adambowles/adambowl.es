@@ -52,7 +52,11 @@ class GithubController extends Controller {
 
     chdir('..');
     $output = shell_exec('./build.sh');
-    return $phpUser . $output;
+    $output .= $phpUser . $output;
+    
+    //TODO push $output to hipchat
+    
+    return $output;
   }
 
 }
