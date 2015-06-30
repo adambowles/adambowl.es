@@ -1,11 +1,9 @@
-<footer class="footer_wrapper">
-  @include('partials.contact')
-
+<footer>
   <div class="container">
-    <div class="footer_bottom">
-      <span>
+    <div class="row">
+      <div class="col-xs-12">
         Copyright &copy; Adam Bowles 2015
-      </span>
+      </div>
     </div>
   </div>
 </footer>

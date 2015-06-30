@@ -1,14 +1,11 @@
-<header id="header">
-  <div id="head">
-
-    <div class="top_left_cont" id="logo">
-      <img class="portrait" src="http://webthemez.com/demo/john-bootstrap-one-page-html5-free-resume-template/img/guy.jpg" alt="">
-
-      <h2>Hello! I'm Adam Bowles</h2>
-      <h2>Software Engineer by trade, weekend warrior rock climber</h2>
+<section id="intro" data-speed="4" data-type="background">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-xs-12">
+        <h1> Some page title </h1>
+        <p> This is a website. </p>
+        <p> <a class="btn btn-primary" href="#">Tell me more</a> </p>
+      </div>
     </div>
-
   </div>
-</header>
-
-@include('partials.navbar')
+</section>

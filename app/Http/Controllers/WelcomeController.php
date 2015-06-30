@@ -30,29 +30,7 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome');
-	}
-
-	/**
-	 * Show the application welcome screen to the user
-	 * with a material design style
-	 *
-	 * @return Response
-	 */
-	public function material()
-	{
-		return view('material');
-	}
-
-	/**
-	 * Show the application welcome screen to the user
-	 * with a material design style
-	 *
-	 * @return Response
-	 */
-	public function bs2()
-	{
-		return view('bs2');
+		return view('main');
 	}
 
 }

@@ -1,64 +1,18 @@
-<section id="service">
-  <div class="container">
-    <h2>My Skills</h2>
-    <h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
-    <div class="service_wrapper">
-      <div class="row">
-        <div class="col-md-3">
-          <div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-tree"></i></span> </div>
-          <div class="service_block">
-
-            <h3 class="animated fadeInUp wow">User Experience</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-crosshairs"></i></span> </div>
-          <div class="service_block">
-            <h3 class="animated fadeInUp wow">Designing</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-building-o "></i></span> </div>
-          <div class="service_block">
-
-            <h3 class="animated fadeInUp wow">Front-end</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-twitter"></i></span> </div>
-          <div class="service_block">
-
-            <h3 class="animated fadeInUp wow">Mobile App</h3>
-            <p class="animated fadeInDown wow">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section id="techSkills">
+<section id="skills">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6 col-md-6">
-        <h2>Technical Skills</h2>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. um dolor sit amet, consectetur Morbi. is, simply dummy text of the printing and typesetting industry. um dolor sit amet.
-        </p>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. um dolor sit amet, consectetur Morbi. is, simply dummy text of the printing and typesetting industry. um dolor sit amet.
-        </p>
-      </div>
-      <div class="col-sm-6 col-md-6">
-        @include('partials.skills.bar', ['name' => 'HTML / HTML5',        'progress' => '90'])
-        @include('partials.skills.bar', ['name' => 'CSS / CSS3',          'progress' => '85'])
-        @include('partials.skills.bar', ['name' => 'JavaScript / jQuery', 'progress' => '80'])
-        @include('partials.skills.bar', ['name' => 'PHP',                 'progress' => '70'])
-        @include('partials.skills.bar', ['name' => 'Laravel',             'progress' => '30'])
+      <div class="col-xs-12">
+        <h1 class="text-center">Header for section 2</h1>
+        <p>Listicle kale chips Truffaut roof party stumptown. Put a bird on it VHS keffiyeh raw denim, lumbersexual Austin meggings. Lomo Helvetica Kickstarter dreamcatcher VHS meggings food truck, banjo Thundercats Intelligentsia. Bicycle rights narwhal cornhole, selfies locavore trust fund Echo Park Pinterest polaroid asymmetrical jean shorts try-hard kogi. Literally vegan tote bag mlkshk photo booth gluten-free. Shabby chic readymade banjo salvia selvage crucifix Echo Park, heirloom Truffaut twee Blue Bottle narwhal. Occupy kitsch hoodie, freegan Pinterest street art mixtape Blue Bottle vinyl.</p>
+        <p>Heirloom craft beer viral Wes Anderson, freegan Intelligentsia Neutra Odd Future scenester cold-pressed selvage lomo sustainable Schlitz Echo Park. Shoreditch mixtape VHS, distillery Marfa 8-bit High Life church-key. Literally Blue Bottle mixtape church-key small batch taxidermy mumblecore Brooklyn, wolf cold-pressed. Stumptown wayfarers Carles tousled, ethical normcore post-ironic four dollar toast food truck XOXO taxidermy health goth craft beer vinyl PBR&amp;B. Odd Future cornhole Helvetica, hashtag church-key DIY asymmetrical mustache post-ironic. Lo-fi flannel tofu seitan, tilde pour-over synth PBR beard butcher. McSweeney's 3 wolf moon messenger bag, semiotics fap small batch flannel aesthetic Bushwick literally VHS banh mi selvage chambray DIY.</p>
+        <p>Wayfarers street art deep v, Tumblr drinking vinegar roof party craft beer Portland Wes Anderson slow-carb pug sustainable salvia. Godard distillery iPhone ethical whatever, Brooklyn Shoreditch normcore flexitarian. Cliche slow-carb wolf, brunch single-origin coffee banjo Williamsburg kitsch High Life Banksy Godard farm-to-table. Gluten-free typewriter farm-to-table tousled, Portland selvage sustainable distillery stumptown small batch. Cornhole cliche authentic forage, Blue Bottle flexitarian try-hard ennui gastropub. McSweeney's forage pop-up ethical, readymade you probably haven't heard of them ugh keffiyeh organic High Life scenester literally. Photo booth salvia disrupt Brooklyn fixie freegan McSweeney's, wolf literally cray.</p>
+        <p>Hella Thundercats try-hard letterpress synth, photo booth selvage tote bag deep v organic. Cronut pour-over actually fanny pack American Apparel art party mumblecore. Salvia brunch tofu, mustache ugh you probably haven't heard of them locavore Pinterest umami typewriter actually Williamsburg. VHS cardigan trust fund, wayfarers quinoa Schlitz biodiesel paleo. Authentic narwhal blog fingerstache banh mi quinoa. Bespoke street art chambray Schlitz cred fixie. Taxidermy kale chips pork belly mumblecore butcher.</p>
+        <p>Bitters retro four dollar toast DIY, flannel Echo Park four loko pork belly lomo Tumblr. Authentic Williamsburg health goth kitsch, VHS pork belly drinking vinegar freegan fap raw denim ugh. Wes Anderson tattooed farm-to-table brunch normcore ugh. Cardigan bitters mlkshk Etsy. Readymade raw denim roof party trust fund narwhal cray flexitarian artisan, Pitchfork synth pork belly messenger bag kogi plaid pickled. Locavore synth small batch McSweeney's typewriter gastropub Brooklyn. Marfa blog whatever, mixtape dreamcatcher PBR Echo Park tilde drinking vinegar try-hard tote bag seitan semiotics.</p>
+        <p>Asymmetrical semiotics ugh actually, Intelligentsia Helvetica Truffaut distillery blog 3 wolf moon synth. Authentic aesthetic semiotics selvage, before they sold out beard mlkshk. Distillery keffiyeh Pinterest hella swag, meh small batch Vice PBR&amp;B Banksy cold-pressed. Freegan pickled actually, cred McSweeney's cold-pressed single-origin coffee you probably haven't heard of them small batch. Street art mumblecore put a bird on it, 3 wolf moon bicycle rights meditation wayfarers. Master cleanse tofu biodiesel, health goth Bushwick mlkshk Brooklyn. Godard chillwave heirloom polaroid.</p>
+        <p>Distillery Austin cliche quinoa occupy bespoke. Austin mlkshk keytar tilde, deep v post-ironic American Apparel. Pickled hella before they sold out, small batch Tumblr Blue Bottle cornhole plaid disrupt gluten-free. Artisan farm-to-table pug plaid. Pickled chillwave tousled, typewriter mixtape pork belly biodiesel Williamsburg keytar leggings vinyl fashion axe next level selfies. Keytar freegan bitters kale chips shabby chic typewriter. Neutra cred Etsy you probably haven't heard of them Brooklyn Echo Park.</p>
+        <p>Portland Neutra asymmetrical, retro narwhal paleo synth organic yr Pitchfork master cleanse beard vinyl. American Apparel banjo locavore shabby chic Pinterest, migas synth. Thundercats sriracha Odd Future kitsch crucifix. Echo Park YOLO quinoa fanny pack McSweeney's, sriracha Pinterest 90's slow-carb bitters +1 ethical. Lomo migas artisan Austin banh mi, pour-over iPhone lumbersexual Tumblr sartorial hella 8-bit. 3 wolf moon Blue Bottle tattooed hella Thundercats, ethical lo-fi McSweeney's iPhone Schlitz Marfa beard street art. Synth Kickstarter artisan, actually cliche tofu wolf scenester umami Carles Truffaut.</p>
+        <p>Brunch Thundercats fingerstache, tote bag listicle blog letterpress 3 wolf moon small batch plaid roof party. Lo-fi listicle artisan narwhal disrupt wayfarers. Wes Anderson ugh kogi tote bag, lumbersexual tilde fingerstache Marfa gastropub. Migas Kickstarter asymmetrical, street art craft beer authentic cold-pressed taxidermy master cleanse small batch raw denim. Meh fashion axe Williamsburg skateboard before they sold out. Neutra mustache Blue Bottle paleo cray tattooed. Pinterest migas four loko, irony Neutra Brooklyn squid keytar.</p>
+        <p>Ugh mumblecore VHS vegan mustache. Raw denim butcher swag slow-carb. Listicle pork belly Etsy PBR&amp;B, squid distillery lumbersexual gastropub dreamcatcher craft beer. You probably haven't heard of them try-hard beard, irony sustainable whatever blog heirloom. Chia bicycle rights cold-pressed, sartorial 90's ennui leggings master cleanse pork belly pug Godard mustache whatever. Williamsburg plaid mlkshk, irony salvia raw denim farm-to-table cliche distillery Neutra Tumblr YOLO tofu sriracha. Keffiyeh drinking vinegar readymade, cardigan street art synth Godard actually raw denim occupy fingerstache.</p>
       </div>
     </div>
   </div>

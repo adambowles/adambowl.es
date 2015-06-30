@@ -1,0 +1,111 @@
+/* http://www.nicholastodor.com/blog/use-apples-new-san-francisco-font-on-your-website */
+@import url(http://nicholastodor.com/sf/usesf.css);
+
+* {
+  font-family: 'San Francisco Text', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'San Francisco Display', sans-serif !important;
+  margin: 1em;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 26px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+}
+
+p.small,
+p > small {
+  font-size: 14px;
+}
+
+p.lead {
+  font-size: 24px;
+}
+
+.nav-wrapper
+{
+  min-height: 82px;
+}
+
+#nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav > li > a {
+  background: none !important;
+  color: #D2D2D2 !important;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a:hover {
+  text-decoration: underline;
+  color: #e8e8e8 !important;
+}
+
+.navbar-nav > .active > a {
+  background: none !important;
+  color: #1485CC !important;
+}
+
+.navbar-nav > .active > a:hover {
+  color: #0BB4E3 !important;
+}
+
+.navbar-default {
+  background: #000 !important;
+  z-index: 999 !important;
+  border: none;
+  border-radius: 0;
+}
+
+#intro {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/8/8c/K2%2C_Mount_Godwin_Austen%2C_Chogori%2C_Savage_Mountain.jpg) 50% 0 fixed;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  padding: 200px 0;
+}
+
+section {
+  margin: 100px 0;
+}

@@ -1,140 +1,103 @@
-/*
-Author URI: http://webthemez.com/
-Note:
-Licence under Creative Commons Attribution 3.0
-Do not remove the back-link in this web template
--------------------------------------------------------*/
+/*------------------------------------------------------*/
+/* Determine what size screen this is being rendered on */
+/*------------------------------------------------------*/
+var viewportSize = 'xs'; // Mobile first
 
-$(window).load(function() {
-    jQuery('#all').click();
-    return false;
+(function($, viewport){
+  // Execute only after document has fully loaded
+  $(document).ready(function() {
+    viewportSize = getViewportSize(viewport);
+  });
+
+  // Execute code each time window size changes
+  $(window).resize(
+    viewport.changed(function(){
+      viewportSize = getViewportSize(viewport);
+    })
+  );
+
+})(jQuery, ResponsiveBootstrapToolkit);
+
+function getViewportSize(viewport)
+{
+  if( viewport.is('xs') ) {
+    return 'xs';
+  }
+  if( viewport.is('sm') ) {
+    return 'sm';
+  }
+  if( viewport.is('md') ) {
+    return 'md';
+  }
+  if( viewport.is('lg') ) {
+    return 'lg';
+  }
+}
+
+
+/*--------------------------------------------------------------------------*/
+/* Collapse the navbar once a link has been activated (small displays only) */
+/*--------------------------------------------------------------------------*/
+$('.nav a').on('click', function(){
+  if(viewportSize == 'xs') {
+    $(".navbar-toggle").click();
+  }
 });
 
-$(document).ready(function() {
-    $('#header_wrapper').scrollToFixed();
-    $('.res-nav_click').click(function() {
-        $('.main-nav').slideToggle();
-        return false
 
-    });
+/*---------------*/
+/* Sticky navbar */
+/*---------------*/
+$(function() {
+  $('#nav-wrapper').height($("#nav").height());
 
-    function resizeText() {
-        var preferredWidth = 767;
-        var displayWidth = window.innerWidth;
-        var percentage = displayWidth / preferredWidth;
-        var fontsizetitle = 25;
-        var newFontSizeTitle = Math.floor(fontsizetitle * percentage);
-        $(".divclass").css("font-size", newFontSizeTitle)
-    }
-    if ($('#main-nav ul li:first-child').hasClass('active')) {
-        $('#main-nav').css('background', 'none');
-    }
-    $('#mainNav').onePageNav({
-        currentClass: 'active',
-        changeHash: false,
-        scrollSpeed: 950,
-        scrollThreshold: 0.2,
-        filter: '',
-        easing: 'swing',
-        begin: function() {
-        },
-        end: function() {
-            if (!$('#main-nav ul li:first-child').hasClass('active')) {
-                $('.header').addClass('addBg');
-            } else {
-                $('.header').removeClass('addBg');
-            }
-
-        },
-        scrollChange: function($currentListItem) {
-            if (!$('#main-nav ul li:first-child').hasClass('active')) {
-                $('.header').addClass('addBg');
-            } else {
-                $('.header').removeClass('addBg');
-            }
-        }
-    });
-
-    var container = $('#portfolio_wrapper');
+  $('#nav').affix({
+    offset: { top: $('#nav').offset().top }
+  });
+});
 
 
-    container.isotope({
-        animationEngine: 'best-available',
-        animationOptions: {
-            duration: 200,
-            queue: false
-        },
-        layoutMode: 'fitRows'
-    });
-
-    $('#filters a').click(function() {
-        $('#filters a').removeClass('active');
-        $(this).addClass('active');
-        var selector = $(this).attr('data-filter');
-        container.isotope({
-            filter: selector
-        });
-        setProjects();
+/*------------------*/
+/* Smooth scrolling */
+/*------------------*/
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top - ((viewportSize == 'xs') ? 49 : 79) // offset slightly less then navbar size (xs screen has minified navbar)
+        }, 750, 'easeInOutCubic');
         return false;
-    });
-
-    function splitColumns() {
-        var winWidth = $(window).width(),
-            columnNumb = 1;
-
-
-        if (winWidth > 1024) {
-            columnNumb = 4;
-        } else if (winWidth > 900) {
-            columnNumb = 2;
-        } else if (winWidth > 479) {
-            columnNumb = 2;
-        } else if (winWidth < 479) {
-            columnNumb = 1;
-        }
-
-        return columnNumb;
+      }
     }
-
-    function setColumns() {
-        var winWidth = $(window).width(),
-            columnNumb = splitColumns(),
-            postWidth = Math.floor(winWidth / columnNumb);
-
-        container.find('.portfolio-item').each(function() {
-            $(this).css({
-                width: postWidth + 'px'
-            });
-        });
-    }
-
-    function setProjects() {
-        setColumns();
-        container.isotope('reLayout');
-    }
-
-    container.imagesLoaded(function() {
-        setColumns();
-    });
-
-
-    $(window).bind('resize', function() {
-        setProjects();
-    });
-
-   $(".fancybox").fancybox();
+  });
 });
 
-wow = new WOW({
-    animateClass: 'animated',
-    offset: 100
+
+/*-----------------*/
+/* Parallax header */
+/*-----------------*/
+$(document).ready(function(){
+   $('section[data-type="background"]').each(function(){
+     var parallax = $(this);
+
+      $(window).scroll(function() {
+        var yPos = -($(window).scrollTop() / parallax.data('speed'));
+        var coords = '50% '+ yPos + 'px';
+        parallaxise(parallax, coords);
+      });
+
+      $(document).ready(function(){
+        var yPos = -($(window).scrollTop() / parallax.data('speed'));
+        var coords = '50% '+ yPos + 'px';
+        parallaxise(parallax, coords);
+      });
+   });
 });
-wow.init();
-// document.getElementById('').onclick = function() {
-//     var section = document.createElement('section');
-//     section.className = 'wow fadeInDown';
-//     section.className = 'wow shake';
-//     section.className = 'wow zoomIn';
-//     section.className = 'wow lightSpeedIn';
-//     this.parentNode.insertBefore(section, this);
-// };
+
+function parallaxise(element, coords)
+{
+  element.css({ backgroundPosition: coords });
+}

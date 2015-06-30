@@ -47,7 +47,7 @@
       }
 
       p.small,
-      P > small {
+      p > small {
         font-size: 14px;
       }
 
@@ -136,7 +136,6 @@
     <div class="nav-wrapper">
       <nav id="nav" class="navbar navbar-default">
         <div class="container">
-          <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
               <span class="sr-only">Toggle navigation</span>
@@ -146,7 +145,6 @@
             </button>
           </div>
 
-          <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="navbar">
             <ul class="nav navbar-nav">
               <li><a href="#section1">Section 1</a></li>
@@ -155,8 +153,8 @@
               <li><a href="#section4">Section 4</a></li>
               <li><a href="#section5">Section 5</a></li>
             </ul>
-          </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+          </div>
+        </div>
       </nav>
     </div>
 
@@ -264,7 +262,6 @@
     <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="https://raw.githubusercontent.com/maciej-gurban/responsive-bootstrap-toolkit/master/dist/bootstrap-toolkit.min.js"></script>
-    <!-- <script src="bootstrap-toolkit.min.js"></script> -->
 
     <script>
       /*------------------------------------------------------*/

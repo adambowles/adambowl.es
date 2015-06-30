@@ -1,41 +1,19 @@
 <section id="experience">
   <div class="container">
-    <section id="news" class="white-bg padding-top-bottom">
-      <div class="container">
-        <div class="timeline">
-
-          <div class="date-title">
-            <span>2015</span>
-          </div>
-
-          <div class="row news-row">
-            @include('partials.experience.item', ['date' => 'Oct', 'company' => 'Company',  'jobTitle' => 'Job title1',  'specificDates' => 'Specific date range',  'jobDescription' => 'Job description lorem ipsum'])
-            @include('partials.experience.item', ['date' => 'Jul', 'company' => 'Company',  'jobTitle' => 'Job title1',  'specificDates' => 'Specific date range',  'jobDescription' => 'Job description lorem ipsum'])
-          </div>
-
-          <div class="row news-row">
-            @include('partials.experience.item', ['date' => 'Apr', 'company' => 'Company',  'jobTitle' => 'Job title1',  'specificDates' => 'Specific date range',  'jobDescription' => 'Job description lorem ipsum'])
-            @include('partials.experience.item', ['date' => 'Jan', 'company' => 'Company',  'jobTitle' => 'Job title1',  'specificDates' => 'Specific date range',  'jobDescription' => 'Job description lorem ipsum'])
-          </div>
-
-          <!-- <div class="date-title">
-            <span>2013</span>
-          </div>
-
-          <div class="row news-row">
-            @include('partials.experience.item', ['date' => 'Jun', 'company' => 'Roxel (UK Rocket Motors) Ltd',  'jobTitle' => 'Software Engineer',  'specificDates' => 'June 2013 - present',  'jobDescription' => 'Job description lorem ipsum'])
-          </div>
-
-          <div class="date-title">
-            <span>2011</span>
-          </div>
-
-          <div class="row news-row">
-            @include('partials.experience.item', ['date' => 'Jun', 'company' => 'Aston Active Software Engineering',  'jobTitle' => 'Software Engineer',  'specificDates' => 'June 2011',  'jobDescription' => 'One month contract job working for Aston Univeristy student company during summer break from studies. Worked as part of a Agile team implementing scrum practices to develop a CV writing website in PHP'])
-          </div> -->
-
-        </div>
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="text-center">Header for section 4</h1>
+        <p>Fixie quinoa synth direct trade farm-to-table, cray church-key scenester mumblecore tofu Brooklyn Etsy literally. Actually heirloom hella Etsy Shoreditch dreamcatcher ethical. Cornhole trust fund tote bag, Blue Bottle High Life brunch food truck leggings salvia whatever banh mi master cleanse umami PBR Austin. Seitan hoodie Pinterest, cold-pressed Bushwick trust fund Carles wolf shabby chic heirloom. Tattooed messenger bag fanny pack Williamsburg lumbersexual, Helvetica farm-to-table next level polaroid mumblecore. Cornhole farm-to-table synth, meggings flannel American Apparel cold-pressed four loko 3 wolf moon PBR&amp;B you probably haven't heard of them wayfarers art party. Polaroid farm-to-table retro, lo-fi forage disrupt drinking vinegar authentic biodiesel McSweeney's stumptown meggings pour-over.</p>
+        <p>Small batch chillwave jean shorts, hashtag VHS narwhal heirloom roof party Marfa slow-carb church-key keffiyeh you probably haven't heard of them Godard Tumblr. Direct trade vegan next level narwhal, DIY pour-over sartorial pickled. McSweeney's whatever Intelligentsia Wes Anderson fashion axe, readymade wolf single-origin coffee fingerstache Portland skateboard taxidermy. Literally normcore photo booth, Thundercats lomo hoodie bicycle rights 90's PBR&amp;B iPhone fanny pack four dollar toast keytar paleo. Sriracha viral master cleanse, asymmetrical salvia cronut whatever put a bird on it chia wolf messenger bag occupy. Williamsburg viral ennui, Vice keffiyeh organic scenester quinoa Pinterest mixtape Tumblr PBR&amp;B tousled ethical wolf. Cliche art party health goth blog, actually Kickstarter ethical tilde iPhone cred sriracha.</p>
+        <p>Distillery craft beer selfies, biodiesel Brooklyn roof party taxidermy vinyl fanny pack. Banh mi vinyl street art Williamsburg shabby chic taxidermy. Tofu seitan twee mixtape. Master cleanse fingerstache McSweeney's, flannel post-ironic crucifix tilde. Readymade pork belly Wes Anderson, try-hard fashion axe scenester mlkshk authentic jean shorts cardigan cred. Messenger bag artisan Portland raw denim, pork belly meh heirloom polaroid quinoa Carles tilde keffiyeh small batch roof party. Cred flannel freegan selfies meditation.</p>
+        <p>Thundercats selvage semiotics, sustainable paleo mustache viral gluten-free tofu slow-carb dreamcatcher next level McSweeney's jean shorts readymade. Squid tofu synth single-origin coffee selvage. Hoodie semiotics Tumblr cornhole, Vice fashion axe banjo gentrify gluten-free Pitchfork. Swag kitsch pickled seitan 90's, biodiesel semiotics 3 wolf moon deep v. Letterpress Intelligentsia four loko DIY fap hella. Craft beer leggings vegan banjo next level, 8-bit retro irony. Organic selfies fashion axe, Carles slow-carb vegan authentic cornhole locavore keffiyeh narwhal letterpress Intelligentsia.</p>
+        <p>Distillery tattooed Odd Future, Intelligentsia Carles freegan Williamsburg biodiesel gastropub. Kickstarter freegan aesthetic seitan, try-hard you probably haven't heard of them next level skateboard gastropub slow-carb gentrify lumbersexual. Cronut fixie flannel, kogi Portland Williamsburg listicle craft beer fashion axe retro distillery cold-pressed bitters. Forage viral four loko craft beer, messenger bag 90's butcher art party. Normcore semiotics readymade yr gluten-free. Lo-fi vegan Truffaut, kale chips Brooklyn four dollar toast polaroid craft beer viral. Gentrify before they sold out typewriter, cornhole fixie YOLO Bushwick blog Vice fanny pack +1 slow-carb flannel.</p>
+        <p>PBR&amp;B quinoa raw denim retro normcore Portland. Freegan lomo disrupt PBR&amp;B fingerstache chillwave. Flexitarian banjo before they sold out mixtape, butcher wolf synth cred. Beard Brooklyn photo booth hella, Pitchfork heirloom farm-to-table selvage chia twee retro YOLO Kickstarter asymmetrical XOXO. Sustainable synth master cleanse literally. Roof party kogi literally, try-hard sustainable DIY viral four dollar toast Austin cliche trust fund Marfa Intelligentsia fanny pack Brooklyn. Kitsch YOLO Echo Park, PBR Neutra cardigan beard.</p>
+        <p>Asymmetrical roof party you probably haven't heard of them hoodie Blue Bottle YOLO. Brunch leggings Neutra, umami kogi Intelligentsia literally Carles authentic gluten-free. American Apparel church-key forage, lo-fi whatever pop-up quinoa. Odd Future cred DIY, stumptown skateboard cronut swag tilde flannel Helvetica roof party organic High Life pork belly. 90's artisan four dollar toast cred 8-bit, bespoke Odd Future disrupt. 90's hella freegan mustache McSweeney's, normcore Etsy lumbersexual swag church-key salvia. Vinyl migas VHS four dollar toast cardigan semiotics farm-to-table Odd Future, asymmetrical keytar.</p>
+        <p>Biodiesel fap migas tousled sartorial. Next level fanny pack mixtape Banksy ethical Neutra. Dreamcatcher letterpress Thundercats butcher, pug cliche church-key Etsy ethical banh mi. Freegan Tumblr church-key, pop-up cold-pressed forage YOLO bicycle rights gluten-free normcore tofu Etsy semiotics cornhole. Distillery Wes Anderson direct trade listicle viral health goth next level, bespoke cray. Vegan irony swag pug fanny pack literally. Lomo mustache occupy authentic cred synth.</p>
+        <p>Kickstarter wayfarers trust fund stumptown. Swag Marfa listicle 90's YOLO Blue Bottle. Bitters Marfa tattooed, sriracha XOXO gentrify viral tousled next level sustainable American Apparel cliche YOLO PBR&amp;B. Pickled retro chillwave wayfarers cornhole, mixtape direct trade listicle. PBR trust fund readymade Williamsburg, bitters Tumblr VHS yr Brooklyn umami ugh vegan beard. Authentic Portland tattooed pug, Brooklyn drinking vinegar fap paleo brunch selvage. Tousled blog typewriter Portland.</p>
+        <p>Swag authentic bicycle rights, selvage Kickstarter synth master cleanse Godard biodiesel Neutra cronut jean shorts. Skateboard sustainable street art flannel. American Apparel banjo ennui, four loko Portland photo booth deep v Odd Future. Migas Carles mumblecore iPhone Brooklyn, banjo four dollar toast. DIY try-hard art party, mumblecore actually pug flannel. Fashion axe Williamsburg master cleanse, cred Echo Park four dollar toast mlkshk hoodie locavore mumblecore disrupt listicle. Typewriter organic ennui, bespoke beard kogi chia letterpress freegan Godard bitters kale chips yr sartorial.</p>
       </div>
-    </section>
+    </div>
   </div>
 </section>
