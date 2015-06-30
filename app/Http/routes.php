@@ -13,8 +13,6 @@
 
 Route::get('/', 'WelcomeController@index');
 
-Route::get('/bs2',      'WelcomeController@bs2');
-
 // Route::get('home', 'HomeController@index');
 
 Route::post('github_pull', 'GithubController@pull');

@@ -67,7 +67,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top - ((viewportSize == 'xs') ? 49 : 79) // offset slightly less then navbar size (xs screen has minified navbar)
+          scrollTop: target.offset().top - ((viewportSize == 'xs') ? 25 : 50) // offset slightly less then navbar size (xs screen has minified navbar)
         }, 750, 'easeInOutCubic');
         return false;
       }

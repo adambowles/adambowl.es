@@ -1,13 +1,10 @@
-/* http://www.nicholastodor.com/blog/use-apples-new-san-francisco-font-on-your-website */
-@import url(http://nicholastodor.com/sf/usesf.css);
-
 * {
   font-family: 'San Francisco Text', sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'San Francisco Display', sans-serif !important;
-  margin: 1em;
+  margin: 1em 0;
 }
 
 h1 {
@@ -49,7 +46,7 @@ p.lead {
 
 .nav-wrapper
 {
-  min-height: 82px;
+  min-height: 80px;
 }
 
 #nav.affix {
@@ -90,7 +87,7 @@ p.lead {
 }
 
 .navbar-default {
-  background: #000 !important;
+  background: #111 !important;
   z-index: 999 !important;
   border: none;
   border-radius: 0;
@@ -102,10 +99,47 @@ p.lead {
   margin: 0 auto;
   width: 100%;
   position: relative;
-  box-shadow: 0 0 50px rgba(0,0,0,0.8);
   padding: 200px 0;
 }
 
 section {
-  margin: 100px 0;
+  padding: 2em 0 4em 0;
+}
+
+section:nth-of-type(2n+1) {
+  background-color: #1485CC;
+  color: #fff;
+}
+
+section h1:first-of-type {
+  text-align: center;
+}
+
+#intro * {
+  color: #333;
+}
+
+footer {
+  background-color: #111;
+  padding: 1em 0;
+}
+
+footer * {
+  color: #D2D2D2;
+}
+
+footer > .container {
+  text-align: center;
+}
+
+footer li {
+  display: inline;
+}
+
+footer li:before {
+    content: '\b7\a0';
+}
+
+footer li:first-of-type:before {
+    content: none;
 }
