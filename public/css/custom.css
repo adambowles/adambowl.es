@@ -1,4 +1,4 @@
-* {
+*:not(i) {
   font-family: 'San Francisco Text', sans-serif !important;
 }
 
