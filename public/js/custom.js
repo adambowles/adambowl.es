@@ -83,21 +83,19 @@ $(document).ready(function(){
    $('section[data-type="background"]').each(function(){
      var parallax = $(this);
 
-      $(window).scroll(function() {
-        var yPos = -($(window).scrollTop() / parallax.data('speed'));
-        var coords = '50% '+ yPos + 'px';
-        parallaxise(parallax, coords);
+      $(document).ready(function(){
+        parallaxise(parallax);
       });
 
-      $(document).ready(function(){
-        var yPos = -($(window).scrollTop() / parallax.data('speed'));
-        var coords = '50% '+ yPos + 'px';
-        parallaxise(parallax, coords);
+      $(window).scroll(function() {
+        parallaxise(parallax);
       });
    });
 });
 
-function parallaxise(element, coords)
+function parallaxise(element)
 {
+  var yPos = -($(window).scrollTop() / parallax.data('speed'));
+  var coords = '50% '+ yPos + 'px';
   element.css({ backgroundPosition: coords });
 }
