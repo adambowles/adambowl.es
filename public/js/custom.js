@@ -95,7 +95,7 @@ $(document).ready(function(){
 
 function parallaxise(element)
 {
-  var yPos = -($(window).scrollTop() / parallax.data('speed'));
+  var yPos = -($(window).scrollTop() / element.data('speed'));
   var coords = '50% '+ yPos + 'px';
   element.css({ backgroundPosition: coords });
 }
