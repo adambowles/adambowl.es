@@ -5,6 +5,9 @@
 /* Sections */
 @import 'partials/header.css';
 @import 'partials/navbar.css';
+@import 'partials/about.css';
+@import 'partials/skills.css';
+@import 'partials/portfolio.css';
 @import 'partials/timeline.css';
 @import 'partials/contact.css';
 @import 'partials/footer.css';
