@@ -1,3 +1,7 @@
+::selection {
+  background: #32B0FF;
+}
+
 *:not(i) {
   font-family: 'San Francisco Text', sans-serif !important;
 }
@@ -253,18 +257,18 @@ footer li:first-of-type:before {
   border-bottom-left-radius: 50%;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel {
+.timeline > li:nth-last-of-type(2n+1) > .timeline-panel {
   float: right;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel:before {
+.timeline > li:nth-last-of-type(2n+1) > .timeline-panel:before {
   border-left-width: 0;
   border-right-width: 15px;
   left: -15px;
   right: auto;
 }
 
-.timeline > li.timeline-inverted > .timeline-panel:after {
+.timeline > li:nth-last-of-type(2n+1) > .timeline-panel:after {
   border-left-width: 0;
   border-right-width: 14px;
   left: -14px;
@@ -272,7 +276,7 @@ footer li:first-of-type:before {
 }
 
 .timeline-badge.primary {
-  background-color: #2e6da4 !important;
+  background-color: #32B0FF !important;
 }
 
 .timeline-badge.success {
@@ -304,6 +308,20 @@ footer li:first-of-type:before {
 .timeline-body > p + p {
   margin-top: 5px;
 }
+.timeline-heading {
+    text-align: center;
+}
+
+.timeline-heading > h1,
+.timeline-heading > h2,
+.timeline-heading > h3,
+.timeline-heading > h4,
+.timeline-heading > h5,
+.timeline-heading > h6 {
+  display: inline;
+  margin: 0 0.5em;
+}
+
 
 @media (max-width: 767px) {
   ul.timeline:before {
