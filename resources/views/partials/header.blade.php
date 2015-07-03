@@ -5,7 +5,6 @@
         <h1> Some page title </h1>
         <p> This is a website. </p>
         <p> <a class="btn btn-primary" href="#">Tell me more</a> </p>
-        <i class="fa fa-mars-stroke-v"></i>
       </div>
     </div>
   </div>
