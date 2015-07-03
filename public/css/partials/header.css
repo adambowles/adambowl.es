@@ -1,0 +1,13 @@
+
+#intro {
+  background: url('/images/Mount Godwin.jpg') 50% 0 fixed;
+  height: auto;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  padding: 200px 0;
+}
+
+#intro * {
+  color: #333;
+}

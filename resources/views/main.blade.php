@@ -17,6 +17,6 @@
 
     @include('partials.footer')
 
-    @include('partials.js')
+    @include('partials.assets.js')
   </body>
 </html>

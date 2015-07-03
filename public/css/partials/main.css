@@ -1,0 +1,63 @@
+::selection {
+  background: #32B0FF;
+}
+
+*:not(i) {
+  font-family: 'San Francisco Text', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'San Francisco Display', sans-serif !important;
+  margin: 1em 0;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 26px;
+}
+
+h5 {
+  font-size: 22px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 18px;
+}
+
+p.small,
+p > small {
+  font-size: 14px;
+}
+
+p.lead {
+  font-size: 24px;
+}
+
+section {
+  padding: 2em 0 4em 0;
+}
+
+section:nth-of-type(2n+1) {
+  background-color: #1485CC;
+  color: #fff;
+}
+
+section h1:first-of-type {
+  text-align: center;
+}

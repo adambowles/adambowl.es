@@ -1,0 +1,47 @@
+.nav-wrapper {
+  min-height: 80px;
+}
+
+#nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav > li > a {
+  background: none !important;
+  color: #D2D2D2 !important;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a:hover {
+  text-decoration: underline;
+  color: #e8e8e8 !important;
+}
+
+.navbar-nav > .active > a {
+  background: none !important;
+  color: #1485CC !important;
+}
+
+.navbar-nav > .active > a:hover {
+  color: #0BB4E3 !important;
+}
+
+.navbar-default {
+  background: #111 !important;
+  z-index: 999 !important;
+  border: none;
+  border-radius: 0;
+}
