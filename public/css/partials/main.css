@@ -1,14 +1,38 @@
-::selection {
-  background: #32B0FF;
+/*
+  Colours:
+
+  Blue:       #2980B9;
+  Dark blue:  #29719F;
+  Light blue: #3498DB;
+
+  Red:        #E74C3C;
+  Dark red:   #9A2519;
+  Light red:  #FF6B5C;
+
+  White:      #ECF0F1;
+  Black:      #292929;
+*/
+
+/*::selection {
+  background: #3498DB; /* Light blue *
+}*/
+
+body, html {
+  font-family: 'San Francisco Text', sans-serif;
+  color: #292929; /* Black */
+  background-color: #ECF0F1; /* White */
 }
 
-*:not(i) {
-  font-family: 'San Francisco Text', sans-serif !important;
+/* Remove Bootstrap's glow on inputs */
+input:focus,
+textarea:focus,
+select:focus {
+  box-shadow: none !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'San Francisco Display', sans-serif !important;
-  margin: 1em 0;
+  font-family: 'San Francisco Display', sans-serif;
+  margin: 1em;
   text-transform: uppercase;
 }
 
@@ -49,15 +73,47 @@ p.lead {
   font-size: 24px;
 }
 
+a {
+  color: #E74C3C;
+}
+
+a:hover {
+  color: #2980B9;
+}
+
 section {
-  padding: 2em 0 4em 0;
+  padding: 4em;
 }
 
+/* Every other section */
 section:nth-of-type(2n+1) {
-  background-color: #1485CC;
-  color: #fff;
+  background-color: #3498DB; /* Light blue */
+  color: #ECF0F1; /* White */
 }
 
+/* All section's first headers */
 section h1:first-of-type {
   text-align: center;
+}
+
+.btn-red {
+  background-color: #E74C3C; /* Red */
+  color: #ECF0F1; /* White */
+}
+
+.btn-red:hover {
+  background-color: #FF6B5C; /* Red */
+  color: #ECF0F1; /* White */
+}
+
+
+@media (max-width: 767px) {
+  section {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  section p {
+    text-align: justify;
+  }
 }

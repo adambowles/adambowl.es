@@ -19,29 +19,28 @@
 }
 
 .navbar-nav > li > a {
-  background: none !important;
-  color: #D2D2D2 !important;
+  background: none;
+  color: #ECF0F1 !important; /* White */
   margin: 10px;
   text-transform: uppercase;
 }
 
 .navbar-nav > li > a:hover {
   text-decoration: underline;
-  color: #e8e8e8 !important;
 }
 
 .navbar-nav > .active > a {
   background: none !important;
-  color: #1485CC !important;
+  color: #2980B9 !important; /* Blue */
 }
 
 .navbar-nav > .active > a:hover {
-  color: #0BB4E3 !important;
+  color: #3498DB !important; /* Light blue */
 }
 
 .navbar-default {
-  background: #111 !important;
-  z-index: 999 !important;
+  background: #292929; /* Black */
+  z-index: 999;
   border: none;
   border-radius: 0;
 }
