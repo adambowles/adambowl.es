@@ -4,3 +4,24 @@
   font-size: 18px;
   list-style-type: none;
 }
+
+#contact h5 {
+  margin: 1em 0 0.25em 0;
+}
+
+#contact input:focus,
+#contact textarea:focus,
+#contact select:focus {
+  border-color: #E74C3C !important;
+}
+
+@media (max-width: 767px) {
+  #contact * {
+    text-align: center;
+  }
+
+  #contact p,
+  #contact ul {
+    margin-bottom: 1.5em;
+  }
+}
