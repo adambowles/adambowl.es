@@ -1,10 +1,9 @@
-<section id="intro" data-speed="6" data-type="background">
+<section id="header" data-speed="6" data-type="background">
   <div class="container">
-    <div class="row text-center">
+    <div class="row">
       <div class="col-xs-12">
-        <h1> Some page title </h1>
-        <p> This is a website. </p>
-        <p> <a class="btn btn-primary" href="#">Tell me more</a> </p>
+        <h1>Adam Bowles</h1>
+        <p>Software Engineer</p>
       </div>
     </div>
   </div>
