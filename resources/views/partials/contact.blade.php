@@ -13,11 +13,13 @@
         <p><a href="tel:+447584356713">07584 356 713</a></p>
 
         <h5><i class="fa fa-pencil-square-o"></i> Write to me</h5>
-        <ul>
-          <li>277 Droitwich Road</li>
-          <li>Worcester</li>
-          <li>WR3 7SU</li>
-        </ul>
+        <a href="https://goo.gl/maps/Bt75L">
+          <ul>
+            <li>277 Droitwich Road</li>
+            <li>Worcester</li>
+            <li>WR3 7SU</li>
+          </ul>
+        </a>
 
       </div>
 
@@ -40,7 +42,7 @@
             <textarea class="form-control" id="messageInput" placeholder="Message" rows="10"></textarea>
           </div>
 
-          <button type="submit" class="btn btn-blue">Send message</button>
+          <button type="submit" class="btn btn-block btn-red">Send message</button>
 
         </form>
 
