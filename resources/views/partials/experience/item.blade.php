@@ -1,5 +1,5 @@
 <li>
-  <div class="timeline-badge primary"><i class="fa fa-{{ $icon or 'check' }}"></i></div>
+  <div class="timeline-badge red"><i class="fa fa-{{ $icon or 'check' }}"></i></div>
   <div class="timeline-panel">
     <div class="timeline-heading">
       <h4 class="timeline-title">{{ $company or 'Company' }}</h4><br>
