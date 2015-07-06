@@ -15,7 +15,7 @@
   border-color: #E74C3C !important;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #contact * {
     text-align: center;
   }
