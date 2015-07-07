@@ -4,4 +4,7 @@
 
 <title>Adam Bowles</title>
 
+<meta name="description" content="Adam Bowles; PHP software developer from Birmingham UK">
+<meta name="author" content="Adam Bowles">
+
 @include('partials.assets.css')
