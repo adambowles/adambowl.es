@@ -9,12 +9,6 @@
   margin: 1em 0 0.25em 0;
 }
 
-#contact input:focus,
-#contact textarea:focus,
-#contact select:focus {
-  border-color: #E74C3C !important;
-}
-
 @media (max-width: 991px) {
   #contact * {
     text-align: center;
