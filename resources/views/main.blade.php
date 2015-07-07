@@ -13,6 +13,7 @@
     @include('partials.skills')
     @include('partials.portfolio')
     @include('partials.experience')
+    @include('partials.blog')
     @include('partials.contact')
 
     @include('partials.footer')

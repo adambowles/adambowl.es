@@ -16,6 +16,7 @@
           <li><a href="#skills">skills</a></li>
           <li><a href="#portfolio">portfolio</a></li>
           <li><a href="#experience">experience</a></li>
+          <li><a href="#blog">blog</a></li>
           <li><a href="#contact">contact</a></li>
         </ul>
       </div>
