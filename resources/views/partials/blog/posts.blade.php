@@ -1,1 +1,4 @@
+@include('partials.blog.post', ['title' => 'Post 1', 'body' => 'Lumbersexual four dollar toast deep v cray Carles mixtape. Cliche kale chips authentic actually vegan trust fund fanny pack shabby chic stumptown Bushwick ethical Brooklyn. Kale chips wayfarers Wes Anderson cardigan letterpress sartorial Banksy biodiesel photo booth gluten-free, meggings 8-bit PBR&B flannel Portland. Marfa typewriter quinoa twee, meh Banksy meggings tilde sartorial dreamcatcher pork belly occupy Austin mlkshk. Aesthetic gastropub Thundercats lumbersexual Schlitz Marfa, food truck irony before they sold out flannel keffiyeh High Life try-hard. Aesthetic 90\'s artisan raw denim, mustache Intelligentsia irony Portland try-hard lomo. Bicycle rights pork belly pop-up, DIY Helvetica McSweeney\'s kitsch next level aesthetic hashtag cornhole retro.'])
+@include('partials.blog.post')
+@include('partials.blog.post')
 @include('partials.blog.post')
